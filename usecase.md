@@ -1,3 +1,6 @@
+# Diagramme cas d'utilisation
+<img width="691" height="2070" alt="image" src="https://github.com/user-attachments/assets/65c885ad-9e23-4932-95a3-59d9d1480655" />
+
 ```plantuml
 @startuml
 left to right direction
