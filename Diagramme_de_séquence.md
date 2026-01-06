@@ -1,7 +1,7 @@
 
 ## 1. UC-AUTH-01 — Login + CGU + première connexion
-
 <img width="734" height="559" alt="image" src="https://github.com/user-attachments/assets/5b097954-1bb0-4020-b1c2-43fde4a63666" />
+
 ```plantuml
 @startuml
 title UC-AUTH-01 — Login + CGU + première connexion
