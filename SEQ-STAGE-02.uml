@@ -1,0 +1,38 @@
+@startuml
+title UC-STAGE-01 — Étudiant : gérer "Mes stages"
+actor Étudiant as E
+participant "Web" as WEB
+participant "StageController" as STC
+participant "Policy(Stage)" as POL
+database "DB" as DB
+
+E -> WEB : GET /my-stages
+WEB -> STC : indexMy()
+STC -> DB : SELECT stages WHERE student_id=me
+WEB --> E : liste
+
+E -> WEB : POST /my-stages (payload,CSRF)
+WEB -> STC : store()
+STC -> POL : authorize(create)
+alt ok
+  STC -> DB : INSERT stage(student_id=me,...)
+  WEB --> E : 201 + redirect détail
+else ko
+  WEB --> E : 403
+end
+
+E -> WEB : PUT /my-stages/{id} (payload,CSRF)
+WEB -> STC : update(id)
+STC -> DB : SELECT stage WHERE id=? AND student_id=me
+alt trouvé
+  STC -> POL : authorize(update, stage)
+  alt ok
+    STC -> DB : UPDATE stage WHERE id=? AND student_id=me
+    WEB --> E : 200
+  else ko
+    WEB --> E : 403
+  end
+else absent
+  WEB --> E : 404
+end
+@enduml
