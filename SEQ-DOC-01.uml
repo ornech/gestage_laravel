@@ -1,0 +1,30 @@
+@startuml
+title UC-DOC-01 — Convention : générer / télécharger (PDF)
+actor "Étudiant/Prof" as A
+participant "Web" as WEB
+participant "DocumentController" as DOC
+participant "Policy(Stage)" as POL
+database "DB" as DB
+participant "PDF Renderer" as PDF
+participant "Storage" as FS
+
+A -> WEB : GET /stages/{id}/convention
+WEB -> DOC : generateConvention(stage_id)
+DOC -> DB : SELECT stage + student + company + contacts
+DOC -> POL : authorize(view, stage)
+
+alt authorized
+  alt data complete
+    DOC -> PDF : render(template,data)
+    PDF --> DOC : bytes
+    DOC -> FS : store(bytes)
+    DOC --> WEB : file response (pdf)
+    WEB --> A : téléchargement
+  else data missing
+    DOC --> WEB : 422 + liste champs manquants
+    WEB --> A : erreur
+  end
+else forbidden
+  WEB --> A : 403
+end
+@enduml
