@@ -1,0 +1,32 @@
+@startuml
+title UC-ENT-01 — Entreprise : import/MAJ via SIRET (API)
+actor "Prof/Admin" as A
+participant "Web" as WEB
+participant "CompanyController" as C
+participant "Policy(Company)" as POL
+participant "SireneClient" as API
+database "DB" as DB
+
+A -> WEB : POST /companies/import (siret,CSRF)
+WEB -> C : importBySiret(siret)
+C -> POL : authorize(import)
+alt ok
+  C -> DB : SELECT company WHERE siret=?
+  alt exists
+    C -> DB : UPDATE company (merge strategy)
+    WEB --> A : fiche entreprise
+  else new
+    C -> API : GET company(siret)
+    alt api ok
+      API --> C : data
+      C -> DB : INSERT company + meta(source=sirene)
+      WEB --> A : fiche entreprise
+    else api error
+      C --> WEB : 503 (api unavailable)
+      WEB --> A : erreur
+    end
+  end
+else ko
+  WEB --> A : 403
+end
+@enduml
