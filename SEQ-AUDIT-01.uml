@@ -1,0 +1,28 @@
+@startuml
+title UC-AUDIT-01 — Audit : consulter journal d'actions
+actor Admin as ADM
+participant "Web" as WEB
+participant "AuditController" as AUD
+participant "Policy(Audit)" as POL
+database "DB" as DB
+
+ADM -> WEB : GET /audit?filters&page=n
+WEB -> AUD : index(filters,page)
+AUD -> POL : authorize(viewAny)
+alt ok
+  AUD -> DB : SELECT audit_logs ORDER BY created_at desc LIMIT/OFFSET
+  WEB --> ADM : liste
+else ko
+  WEB --> ADM : 403
+end
+
+ADM -> WEB : GET /audit/{id}
+WEB -> AUD : show(id)
+AUD -> POL : authorize(view, audit_log)
+alt ok
+  AUD -> DB : SELECT audit_log + payload(before/after)
+  WEB --> ADM : détail
+else ko
+  WEB --> ADM : 403
+end
+@enduml
