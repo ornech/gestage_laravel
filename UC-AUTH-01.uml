@@ -1,0 +1,35 @@
+@startuml
+title UC-AUTH-01 — Login + CGU + première connexion
+actor Visiteur as V
+participant "Web" as WEB
+participant "AuthController" as AUTH
+database "DB" as DB
+participant "Session" as S
+
+V -> WEB : GET /login
+WEB --> V : Form (CSRF)
+
+V -> WEB : POST /login (email,password,CSRF)
+WEB -> AUTH : authenticate()
+AUTH -> AUTH : throttle check
+AUTH -> DB : SELECT user by email
+DB --> AUTH : user(hash, active, cgu_ok, first_login_at)
+AUTH -> AUTH : verifyPassword()
+
+alt ok AND active
+  AUTH -> S : login(user_id)
+  AUTH -> S : regenerate session id
+  AUTH -> DB : UPDATE users set first_login_at=now WHERE first_login_at IS NULL
+  alt cgu_ok=false
+    AUTH --> WEB : redirect /cgu
+    WEB --> V : Page CGU (CSRF)
+    V -> WEB : POST /cgu/accept (CSRF)
+    WEB -> DB : UPDATE users set cgu_ok=true, cgu_accepted_at=now
+    WEB --> V : redirect /home
+  else cgu_ok=true
+    AUTH --> WEB : redirect /home
+  end
+else ko OR inactive
+  AUTH --> WEB : redirect /login (generic error)
+end
+@enduml
