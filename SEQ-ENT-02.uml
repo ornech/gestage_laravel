@@ -1,0 +1,52 @@
+@startuml
+title UC-ENT-02 — Entreprise : ajout manuel + validation
+actor "Étudiant/Prof" as S
+actor "Admin" as ADM
+participant "Web" as WEB
+participant "CompanyController" as C
+participant "ValidationController" as V
+participant "Policy(Validation)" as POLV
+database "DB" as DB
+participant "Mail" as MAIL
+
+S -> WEB : POST /companies (payload,CSRF)
+WEB -> C : store()
+C -> DB : INSERT company(status=pending, created_by=S)
+C -> DB : INSERT validation_request(type=company,target_id,status=pending)
+C -> MAIL : notify admins
+WEB --> S : 202 (en attente)
+
+ADM -> WEB : GET /validations
+WEB -> V : index()
+V -> POLV : authorize(viewAny)
+alt ok
+  V -> DB : SELECT pending validations
+  WEB --> ADM : liste
+else ko
+  WEB --> ADM : 403
+end
+
+ADM -> WEB : POST /validations/{id}/approve (CSRF)
+WEB -> V : approve(id)
+V -> POLV : authorize(approve)
+alt ok
+  V -> DB : UPDATE company set status=active
+  V -> DB : UPDATE validation_request set status=approved
+  V -> MAIL : notify requester
+  WEB --> ADM : 200
+else ko
+  WEB --> ADM : 403
+end
+
+ADM -> WEB : POST /validations/{id}/reject (reason,CSRF)
+WEB -> V : reject(id,reason)
+V -> POLV : authorize(reject)
+alt ok
+  V -> DB : UPDATE validation_request set status=rejected, reason=...
+  V -> DB : UPDATE company set status=rejected
+  V -> MAIL : notify requester
+  WEB --> ADM : 200
+else ko
+  WEB --> ADM : 403
+end
+@enduml
