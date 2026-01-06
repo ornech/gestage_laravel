@@ -1,0 +1,55 @@
+@startuml
+title UC-USER-IMP-01 — Import promotion (Pronote CSV) + validation + création
+actor Admin as ADM
+participant "Web" as WEB
+participant "ImportPromotionController" as IPC
+participant "Policy(Users)" as POL
+participant "PronoteParser" as PARSER
+participant "ImportValidator" as VAL
+database "DB" as DB
+participant "Audit" as AUD
+
+ADM -> WEB : GET /admin/imports/pronote
+WEB --> ADM : Form upload (CSRF)
+
+ADM -> WEB : POST /admin/imports/pronote/preview(file,CSRF)
+WEB -> IPC : preview(file)
+IPC -> POL : authorize(importPromotion)
+alt ok
+  IPC -> PARSER : parseCSV(file)
+  PARSER --> IPC : rows[]
+  IPC -> VAL : validate(rows)
+  VAL --> IPC : report(errors,warnings,stats)
+  IPC --> WEB : 200 preview(report)
+  WEB --> ADM : tableau + erreurs + "confirmer"
+else ko
+  WEB --> ADM : 403
+end
+
+ADM -> WEB : POST /admin/imports/pronote/commit(file,CSRF)
+WEB -> IPC : commit(file)
+IPC -> POL : authorize(importPromotion)
+alt ok
+  IPC -> PARSER : parseCSV(file)
+  PARSER --> IPC : rows[]
+  IPC -> VAL : validate(rows)
+  VAL --> IPC : report(errors,warnings,stats)
+
+  alt errors = 0
+    IPC -> DB : BEGIN
+    loop pour chaque ligne
+      IPC -> DB : UPSERT user (student)\n(match: student_id/ine/email)
+      IPC -> DB : UPSERT enrollment (promotion/classe)\n(attache student -> promo)
+    end
+    IPC -> AUD : write audit(import_promotion, stats, actor=ADM)
+    IPC -> DB : COMMIT
+    IPC --> WEB : 201 résultat(stats)
+    WEB --> ADM : succès
+  else errors > 0
+    IPC --> WEB : 422 report(errors)
+    WEB --> ADM : échec (aucune écriture)
+  end
+else ko
+  WEB --> ADM : 403
+end
+@enduml
