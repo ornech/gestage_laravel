@@ -50,6 +50,7 @@ Scénario textuel (UC-AUTH-01)
 - Postconditions : session active ; `first_login_at` mis si absent ; CGU tracées uniquement si acceptées.
 
 ## 2. UC-AUTH-02 — Mot de passe perdu / reset
+<img width="720" height="584" alt="image" src="https://github.com/user-attachments/assets/3d469bd6-d587-48fb-a03b-5bafb06d2bc9" />
 
 ```plantuml
 @startuml
@@ -102,6 +103,7 @@ Scénario textuel (UC-AUTH-02)
 - Postconditions : mot de passe modifié uniquement si token valide ; token invalidé par suppression.
 
 ## UC-USER-IMP-01 — Importer une promotion (cohorte) depuis un export Pronote.
+<img width="715" height="758" alt="image" src="https://github.com/user-attachments/assets/fe1546b4-b246-49df-a40e-d210856c811d" />
 
 ```plantuml
 @startuml
@@ -174,7 +176,8 @@ Scénario textuel (UC-USER-IMP-01) — strictement conforme au diagramme
 - Postconditions : en succès, les étudiants sont créés/mis à jour et rattachés à la promotion ; une trace d’audit d’import existe.
 
 ## 3. UC-STAGE-01 — Étudiant gère “Mes stages”
-    
+<img width="724" height="794" alt="image" src="https://github.com/user-attachments/assets/e59420d3-1ba3-42f8-b416-00bebd71aedb" />
+
 
 ```plantuml
 @startuml
@@ -226,6 +229,7 @@ Scénario textuel (UC-STAGE-01)
 - Postconditions : stage créé/modifié uniquement dans le périmètre de l’étudiant.
 
 ## 4. UC-STAGE-02 — Prof/Admin : gérer stages + affectations
+<img width="721" height="762" alt="image" src="https://github.com/user-attachments/assets/9ae33783-44b2-4853-b65c-f08e49506ae5" />
 
 ```plantuml
 @startuml
@@ -270,7 +274,7 @@ Scénario textuel (UC-STAGE-02)
 - Postconditions : aucun stage “partiel” (transaction) ; affectations cohérentes avec le stage.
 
 ## 5. UC-DOC-01 — Générer / télécharger convention
-    
+<img width="725" height="450" alt="image" src="https://github.com/user-attachments/assets/8efddf19-2f99-43cc-b9f4-42b816d7eab7" />
 
 ```plantuml
 @startuml
@@ -314,7 +318,7 @@ Scénario textuel (UC-DOC-01)
 - Postconditions : un PDF n’est produit que si l’accès est autorisé et les données sont complètes.
 
 ## 6. UC-ENT-01 — Import/MAJ entreprise via SIRET
-    
+<img width="734" height="575" alt="image" src="https://github.com/user-attachments/assets/49fdc0ef-4a50-4883-9734-1a5ed78df97f" />
 
 ```plantuml
 @startuml
@@ -360,6 +364,7 @@ Scénario textuel (UC-ENT-01)
 - Postconditions : entreprise créée/MAJ uniquement si autorisée ; échec API n’écrit rien.
 
 ## 7. UC-ENT-02 — Ajout manuel + validation
+<img width="743" height="699" alt="image" src="https://github.com/user-attachments/assets/55ebec50-7bb7-41b9-b07d-de7b8ebd05fe" />
 
 ```plantuml
 @startuml
@@ -426,7 +431,7 @@ Scénario textuel (UC-ENT-02)
 - Postconditions : une entreprise manuelle n’est activée qu’après approbation ; rejet laisse une trace motivée.
 
 ## 8. UC-AUDIT-01 — Journal d’actions consultable
-    
+<img width="728" height="564" alt="image" src="https://github.com/user-attachments/assets/5a49e53d-bd98-4e88-abc5-dc30ee6cd08b" />
 
 ```plantuml
 @startuml
