@@ -1,0 +1,38 @@
+@startuml
+title UC-AUTH-02 — Mot de passe perdu / réinitialisation
+actor Visiteur as V
+participant "Web" as WEB
+participant "PasswordController" as PWD
+database "DB" as DB
+participant "Mail" as MAIL
+
+V -> WEB : GET /password/forgot
+WEB --> V : Form email (CSRF)
+
+V -> WEB : POST /password/forgot(email,CSRF)
+WEB -> PWD : requestReset()
+PWD -> PWD : throttle check
+PWD -> DB : SELECT user by email
+
+alt user trouvé
+  PWD -> PWD : generate token
+  PWD -> DB : INSERT password_resets(token_hash, user_id, expires_at)
+  PWD -> MAIL : send reset link(token)
+end
+WEB --> V : message générique (anti-énumération)
+
+V -> WEB : GET /password/reset?token=...
+WEB --> V : Form new password (CSRF)
+
+V -> WEB : POST /password/reset(token,new_password,CSRF)
+WEB -> PWD : reset()
+PWD -> DB : SELECT reset WHERE token_hash=HASH(token) AND expires_at>now
+
+alt token valide
+  PWD -> DB : UPDATE users set password_hash=...
+  PWD -> DB : DELETE password_resets row
+  WEB --> V : redirect /login
+else invalide/expiré
+  WEB --> V : erreur
+end
+@enduml
