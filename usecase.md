@@ -1,5 +1,5 @@
 # Diagramme cas d'utilisation
-<img width="691" height="2070" alt="image" src="https://github.com/user-attachments/assets/65c885ad-9e23-4932-95a3-59d9d1480655" />
+<img width="695" height="2139" alt="image" src="https://github.com/user-attachments/assets/aa4bf7ed-c346-41f6-a726-41a99df94faf" />
 
 ```plantuml
 @startuml
@@ -23,7 +23,7 @@ rectangle "Gestage (cible Laravel) — Use cases métier" {
   package "Auth & conformité" {
     usecase "S'authentifier" as UC_AUTH
     usecase "Mot de passe perdu /\nRéinitialiser" as UC_RESET
-    usecase "Accepter CGU\n+ tracer 1ère connexion" as UC_CGU
+    usecase "Accepter CGU" as UC_CGU
   }
 
   package "Comptes & rôles" {
@@ -33,6 +33,7 @@ rectangle "Gestage (cible Laravel) — Use cases métier" {
     usecase "Anonymiser utilisateur" as UC_USER_ANON
     usecase "Assigner tuteur\nà un étudiant" as UC_TUTOR
     usecase "Gérer classe/promo/\nspécialité/statut" as UC_SCHOOLING
+    usecase "Importer une promotion\n(Export Pronote)" as UC_PRONOTE
   }
 
   package "Stages & documents" {
@@ -86,10 +87,11 @@ ADM --> UC_USERS
 ADM --> UC_USER_ANON
 ADM --> UC_AUDIT
 ADM --> UC_VALIDATE
+ADM --> UC_PRONOTE
 
 UC_COMP_API --> SIRENE
 UC_RESET --> MAIL
 UC_VALIDATE --> MAIL
-
 @enduml
 ```
+
