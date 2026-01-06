@@ -1,0 +1,2476 @@
+[
+  {
+    "number": 547,
+    "title": "[BUG] Ajout Maitre de Stage Supplémentaire.",
+    "body": "**Décrire le bug**\nOn ne peux pas Ajouter plus de 1 Maitre de Stage par Stage\n\n**Pour reproduire**\n1) Allez dans \"Mes Stages\"\n2) Ajoutez un Stage\n3) Sélectionner un stage avec un maitre de stage déjà Enregistrer ( ex : Commune Breuil Magné)\n\n**Comportement attendu**\nPouvoir Ajouter un Maitre de Stage même si Un Maitre de stage est déjà présent.\n(Pour avoir un diffèrent maitre de Stage , que le Stage précèdent.)\n\n**Captures d'écran**\n\n<img width=\"820\" height=\"566\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/cfef3023-f417-4f42-84a6-3f43eb9c947a\" />",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/547"
+  },
+  {
+    "number": 545,
+    "title": "[BUG] Affichage des dates de stage",
+    "body": "Lorsque les dates ne sont pas encore renseigné, sur la page d'accueil il est écrit : \n``\nDates de stages\nSIO 1 : Du au\nSIO 2 : Du au\n``\n\nFaire en sorte que le texte affiche à la place : Non renseigné",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/545"
+  },
+  {
+    "number": 543,
+    "title": "Fermeture de l’ancien portail des API de l’Insee",
+    "body": "# Mail  reçu \nNous revenons vers vous suite à notre précédent message annonçant la fermeture de l’ancien portail des API de l’Insee.\n\nL’accès au portail a été provisoirement prolongé jusqu’à aujourd’hui mais sans maintenance depuis le 28 février 2025.\n\nOr, nous constatons que votre compte y est toujours actif ces derniers jours.\n\nMerci de noter que ce portail sera définitivement fermé le 10 septembre 2025.\n\nPour continuer à utiliser l’API Sirene, nous vous invitons à opérer la bascule vers le [nouveau portail](https://portail-api.insee.fr/) dans les plus brefs délais.\n\nToute la documentation[ nécessaire](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f/doc?page=85c5657d-b1a1-4466-8565-7db1a194667b) est disponible sur le nouveau portail.\n\n \n\nCordialement,\n\nL’équipe Diffusion Sirene et Offre API",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/543"
+  },
+  {
+    "number": 542,
+    "title": "Ajout \"mot de passe perdu\"",
+    "body": "Ajout de la fonctionnalité \"Mot de passe perdu\"\n1) Depuis la page de login\n2) Envoie email d'un lien à usage unique et a durée limité\n",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/542"
+  },
+  {
+    "number": 540,
+    "title": "[BUG] Afficher les détails du stage",
+    "body": "**Décrire le bug**\nL'affichage des détails de stage semble defaillant.\n\n**Pour reproduire**\nÉtapes pour reproduire le comportement :\n1. Aller sur 'Stages->SIO1'\n2. Cliquer sur n'importe quel étudiant\n\n4. Voir l'erreur\nune erreur apparaît avec le message suivant : \n\"Erreur lors de l'accès à la fiche du stage, veuillez réessayer.\"\n\n**Comportement attendu**\nOn devrait voir la page de détails du stage plutôt que l'erreur donnée en copie d'écran ci dessous.\n\n**Captures d'écran**\n![Image](https://github.com/user-attachments/assets/b71025c9-2498-4dad-a838-448d31f7fb4f)\n\n\n**Bureau (veuillez compléter les informations suivantes) :**\n - Système d'exploitation : Lubuntu 20.04\n - Navigateur : Firefox\n - Version : 136.0\n",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/540"
+  },
+  {
+    "number": 539,
+    "title": "[BUG] Modification entreprise (mes stages)",
+    "body": "**Décrire le bug**\nLors de la modification d'un contact dans la section \"mes stages\" la valeur maitre de stage est défini comme \"Anonymous\"\n\n**Pour reproduire**\nÉtapes pour reproduire le comportement :\n1. Se rendre sur la section \"mes stages\"\n2. Cliquer sur \"Plus de détails\" puis sur \"Modifier les détails\"\n3. Sélectionner une autre entreprise que celle actuellement séléctionné.\n4. Choisir le nouveau contact.\n5. Valider et voir l'erreur\n\nNote : lors de l'étape 5 il m'a été nécessaire d'activer le bouton \"Créer\" dans les network tools du navigateur.\n\n**Comportement attendu**\nPermettre la modification de l'entreprise et du maitre de stage.\n\n**Bureau :**\n - Système d'exploitation : Ubuntu 22.04\n - Navigateur : Firefox \n - Version : 136.0.4\n\n**Contexte supplémentaire**\nLe problème a pu être résolu manuellement par la modification du contact la base de donnée.\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/539"
+  },
+  {
+    "number": 537,
+    "title": "[BUG] changer toute reference de E4 vers E5",
+    "body": "La nouvelle circulaire a modifié l'ensemble des noms des épreuves du BTS.\nIl faudra remplacer toute référence à l'épreuve E4 dans le projet par l'épreuve E5.\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/537"
+  },
+  {
+    "number": 536,
+    "title": "[BUG] Convention",
+    "body": "Description du bug\nSur la convention de stage, dans la partie \"Concernant le stage de formation professionnelle de\", le champ destiné au numéro de téléphone affiche l'adresse e-mail à la place.\n\nÉtapes pour reproduire\n- Aller dans la section \"Mes stages\".\n- Cliquer sur \"Obtenir la convention\".\n- Faire défiler jusqu'à la section \"Concernant le stage de formation professionnelle de\".\n- Observer que le champ \"Téléphone\" contient une adresse e-mail au lieu d'un numéro de téléphone.\n\nComportement attendu\nLe champ \"Téléphone\" devrait afficher le numéro de téléphone correct et non une adresse e-mail.\n\n\n**Captures d'écran**\n\n![Image](https://github.com/user-attachments/assets/80d3e508-d209-4c74-9723-b096fc9a8bee)\n\n**Bureau :**\n- Système d'exploitation : Windows 11\n- Navigateurs : Microsoft Edge (version 135.0.3179.66), Firefox Developer Edition (version 138.0b4)\n\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/536"
+  },
+  {
+    "number": 535,
+    "title": "[BUG] Convention de stage",
+    "body": "**Décrire le bug**\nProblème lors de la génération de la convention de stage.\n\n- L'email de l'étudiant est affiché à la place du numéro de téléphone\n- Le contact est affiché sur la section représentant ainsi que la fonction\n\n**Pour reproduire**\nÉtapes pour reproduire le comportement :\n1. Ajouter un nouveau stage dans la section \"mes stages\"\n2. Générer la convention de stage à partir du bouton \"Obtenir ma convention\"\n3. Voir l'erreur\n\n**Comportement attendu**\n\n- Le numéro de téléphone devrait être affiché dans la section téléphone.\n- Le contact du représentant de l'entreprise devrait être présent a la bonne place.\n- Le contact présent sur gestage devrait être présent dans la section tuteur.\n\n**Captures d'écran**\n[convention-SIO1-MILLET-Fabien.pdf](https://github.com/user-attachments/files/19464701/convention-SIO1-MILLET-Fabien.pdf)\n\n**Bureau (veuillez compléter les informations suivantes) :**\n - Système d'exploitation : Ubuntu, Linux\n - Navigateur : Firefox\n - Version : 136\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/535"
+  },
+  {
+    "number": 533,
+    "title": "ajout filtres pages annuaire d'entreprises",
+    "body": "Bonjour,\nEst-il possibled'ajouter un filtrepour trier les entrées dans la page d'annuaire des entreprises?\nPar exemple en cliquant sur \"stage\", clea permettrait d'afficher les entreprise par ordre décroissant/croissant de celles qui ont déjà accueillit un ou plusieurs stagiaire.s\n\n",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/533"
+  },
+  {
+    "number": 532,
+    "title": "page gestion des utilisateurs",
+    "body": "est-il possible d'ajouter des filtres en haut de page pour afficher / masquer des utilisateurs en fonction de certains critères supplémentaires (possibilité de cocher plusieurs filtres en même temps) : \n- affichage par promotion\n- affichage par spécialité\n- affichage / masquage des profils actifs ou désactivés\n\nIl pourrait être également intéressant de trier les utilisateurs en cliquant sur le nom de la colonne par ordre croissant ou décroissant.\n\n",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/532"
+  },
+  {
+    "number": 531,
+    "title": "page individuelle etudiant",
+    "body": "Est-il possible d'ajouter un lien vers la page de gestion des utilisateurs?\nCela permettrait de revenir à la page de gestion, une fois la création ou modification d'un utilisateur effectuée, sans avoir à repasser par le menu en haut.",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/531"
+  },
+  {
+    "number": 528,
+    "title": "Footer bas de page",
+    "body": "Faire en sorte que le footer soit constamment tout en bas de la page ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/528"
+  },
+  {
+    "number": 526,
+    "title": "Erreur vue stage_read",
+    "body": "Deux professeurs s'affichent en tant qu'élève sur cette vue.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/526"
+  },
+  {
+    "number": 522,
+    "title": "Page de connexion et CGU responsive",
+    "body": "Lorsque l'écran est petit, le contenu au milieu n'est pas beau car il est écrasé par des bordures blanches.\n\nLe un espace inutile est inutilisé en bas",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/522"
+  },
+  {
+    "number": 520,
+    "title": "[EXPLOIT] Modifier les données de quelqu'un d'autre via son compte",
+    "body": "Une vulnérabilité à été trouvé sur le site.\n\nEn tant qu'étudiant, nous pouvons modifier les données d'un autre étudiant en modifiant l'id cible dans le gestionnaire des tâches !!! \n\nAccroitre la sécurité des contrôleur en y mettant plus de vérification (surtout la vérification de session)",
+    "state": "closed",
+    "labels": [
+      "bug"
+    ],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/520"
+  },
+  {
+    "number": 518,
+    "title": "Erreur avec index.php",
+    "body": "Lors d'un curl -Li urlVersGestage\n\nJ'ai obtenue une erreur : La variable $page est non défini.\nCe qui est en soit normal car index.ph n'a aucun lien avec router.\n\nCe fichier est uniquement appelé lorsqu'il n'y a pas /router.php après l'URL",
+    "state": "closed",
+    "labels": [
+      "bug"
+    ],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/518"
+  },
+  {
+    "number": 516,
+    "title": "Site Gestage.btssio17.com Non Securisé",
+    "body": "![Image](https://github.com/user-attachments/assets/13c9e8a6-c710-4495-a63b-0d7a503fbff1)\n\nUn certificat conforme devra être rajouter pour ne plus avoir ce problème",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/516"
+  },
+  {
+    "number": 515,
+    "title": "Modification d'une spécialité par un étudiant",
+    "body": "Un étudiant devrait pouvoir modifier sa spécialité\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/515"
+  },
+  {
+    "number": 514,
+    "title": "Création d'un journal de bord",
+    "body": "Comment fonctionnera le journal de bord sur Gestage ?\n\n# Accessibilité\nLa page sera accessible sur la navbar si l'utilisateur possède au moins un stage \nElle pourra toujours être également accessible dans \"mes stages\"\n\n# Présentation\n##Partie affichage :\nLa vue affichera un tableau qui répertoriera par semaine ce que l'étudiant aura réaliser pendant sa période de stage.\n\n## Partie création\nDes boutons ajouter et supprimer seront rajouter sur les \nLe remplissage se fera par semaines donc il y aura x (délais stage en semaines) volets de sélection\nChaque volets aura un formulaire en plusieurs parties :\n\n1 - La partie sélection des compétences mise en œuvre\n2 - Le titre de sa réalisation\n3 - Un descriptif pour sa réalisation\n\n# Répartition des données dans le SGBD\ntable : journal\nid | idEtu | idStageEtu | semaine | competences* | titre | description\n\ncompetences sera en integer, mais pourquoi ?\nUne réalisation peut remplir plusieurs compétences et les enregistrer individuellement dans la table est impossible.\nLa meilleure idée serait de récupérer les compétences validés par l'étudiant et de le traduire en binaire \n\n+1 -> Patrimoine\n+2 -> Répondre aux incidents...\n+4 -> Développer la présence ...\n+8 -> Travailler en mode projet ...\nEtc...\n\nIl serait possible ensuite de récupérer les compétences sélectionné.\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/514"
+  },
+  {
+    "number": 508,
+    "title": "[BUG] Importation entreprise SIRET",
+    "body": "**Décrire le bug**\nLorsque l'on copie-colle un siret, l'entièreté de celui-ci n'est pas collé !\n\nLa cause : Les espacements\nEn effet, beaucoup de sites imprime le siret des entreprises avec des espaces entre certains caractère pour la visibilité.\n\n**Pour reproduire**\nÉtapes pour reproduire le comportement :\n1. Aller sur importer entreprise\n2. Copier un siret d'une entreprise aléatoirement (avec espace)\n3. Coller dans le champ de texte prévue à cet effet le siret copié\n4. Voir l'erreur\n\n**Captures d'écran**\n\n![Image](https://github.com/user-attachments/assets/3335240e-ded6-4f50-951c-df340c18f0e0)\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/508"
+  },
+  {
+    "number": 507,
+    "title": "[BUG] Ajout étudiant",
+    "body": "**Décrire le bug**\nImpossb le d'ajouter manuellement un étudiant en cours d'année. J'ai pas eu le temps de faire une recherche dans les log. \n\nLog à venir",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/507"
+  },
+  {
+    "number": 505,
+    "title": "[BUG] Annuaire entreprise non responsive",
+    "body": "**Décrire le bug**\nSur téléphone, l'annuaire des entreprise n'est pas visible entière et n'est pas responsive\n\n**Captures d'écran**\nCapture sur un Samsung Galaxy Z Fold 5\n![Image](https://github.com/user-attachments/assets/bd289b4b-92ab-4799-8eb6-405e152487dc)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/505"
+  },
+  {
+    "number": 502,
+    "title": "[BUG] FICHE CONTACT - Impossible d'accéder aux informations",
+    "body": "**Décrire le bug**\nNous ne pouvons pas accéder aux informations d'un contact, un message indiquant \"Aucune donnée disponible\" est affiché à la place.\n\n\n**Pour reproduire**\n1. Aller sur une entreprise qui possède un contact\n2. Cliquer sur 'voir'\n4. Voir l'erreur\n\n**Captures d'écran**\n\n![Image](https://github.com/user-attachments/assets/3c95eace-ffd3-4ee4-a2a8-a55cf8ed9d19)\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/502"
+  },
+  {
+    "number": 496,
+    "title": "[BUG] Affichage bouton \"ajout stage\" sur la page de détail d'entreprise ",
+    "body": "**Décrire le bug**\r\nLe bouton d'ajout d'un stage est décentré et ne fait pas partie de la \"card\" \"stage\"\r\n\r\n**Pour reproduire**\r\nÉtapes pour reproduire le comportement :\r\n1. Aller sur le détail d'une entreprise (exemple : http://gestage.btssio17.com/router.php?page=fiche_entreprise&idEntreprise=250)\r\n2. Faire défiler un peu\r\n3. Voir l'erreur\r\n\r\n**Captures d'écran**\r\n![image](https://github.com/user-attachments/assets/d297b942-9657-4a46-ace7-09e01a249d8f)\r\n\r\n\r\n**Bureau (veuillez compléter les informations suivantes) :**\r\n - Système d'exploitation : windows\r\n - Navigateur : OperaGx\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/496"
+  },
+  {
+    "number": 495,
+    "title": "[BUG] Ordre d'affichage des stages",
+    "body": "**Description :**\r\nLes stages effectués affichés dans la page de profil et de stage sont organisés du plus ancien au plus récent.\r\n\r\n**Pour reproduire**\r\n1. Aller sur la page des stages effectués (http://gestage.btssio17.com/router.php?page=stage_etu) OU la page de profil de l'étudiant (http://gestage.btssio17.com/router.php?page=profil)\r\n2. Voir l'erreur\r\n\r\n**Comportement attendu**\r\nLes stages sont organisés dans le sens inverse en affichant en premier, le plus ancien.\r\n\r\n**Captures d'écran**\r\n![image](https://github.com/user-attachments/assets/7c987ef0-a937-42fc-81c2-7435b1edaf20)\r\n![image](https://github.com/user-attachments/assets/cf00fe22-0bfb-465d-93b0-d1f9ce104210)\r\n\r\n**Bureau (veuillez compléter les informations suivantes) :**\r\n - Système d'exploitation : windows\r\n - Navigateur : Opera",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/495"
+  },
+  {
+    "number": 493,
+    "title": "Accessibilité et visibilité",
+    "body": "## Recherche d'entreprise\r\n\r\nManque de visibilité pour les filtres sélectionnés ou non\r\n\r\n![image](https://github.com/user-attachments/assets/e1a1f5b7-bf86-41c5-9e77-5d747a0c2caf)\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/493"
+  },
+  {
+    "number": 492,
+    "title": "Favicon",
+    "body": "## Manque de favicon\r\n\r\nIcone actuelle :\r\n![image](https://github.com/user-attachments/assets/827d8720-4853-4db5-9e80-090c169839fc)\r\n\r\nBalise manquante : `<link rel=\"icon\" href=\"/path/to/favicon.ico\">`\r\n![image](https://github.com/user-attachments/assets/df48a31f-46d4-4a03-86a5-480309e3acbb)\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/492"
+  },
+  {
+    "number": 491,
+    "title": "Bulma Erreur 404",
+    "body": "## Bulma :\r\n\r\nURL de requête: https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma-rtl.min.css\r\nMéthode de requête: GET\r\nCode d'état: 404 Not Found\r\nRèglement sur les URL de provenance: strict-origin-when-cross-origin\r\n\r\n![image](https://github.com/user-attachments/assets/539e3d06-312c-4404-81a2-ec2311bf9fea)\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/491"
+  },
+  {
+    "number": 490,
+    "title": "Affichage de la date dans les conventions.",
+    "body": "## Convention de stage :\r\n\r\nLa date dans la convention générée pour les stages devrait être formatée pour être bien incluse dans une phrase.\r\n![image_2025-01-09_140412627](https://github.com/user-attachments/assets/512ac70d-0d8c-49c3-9eeb-8f4c518056d4)\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/490"
+  },
+  {
+    "number": 486,
+    "title": "Convention - récupération",
+    "body": "Récupérer sa convention n'est pas facile. Elle doit être accessible depuis le menu stage (tant que pour les étudiants que les enseignants)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/486"
+  },
+  {
+    "number": 485,
+    "title": "[contact] maitre de stage",
+    "body": "Vérifier que le mail soit une saisie obligatoire avant la validation d'un maitre de stage.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/485"
+  },
+  {
+    "number": 484,
+    "title": "Sauvegarde externe de la DB",
+    "body": "Prévoir un mécanisme de sauvegarde sur des serveurs;\r\nEx: envoie d'un mail avec un dump-date.sql en pièce jointe",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/484"
+  },
+  {
+    "number": 483,
+    "title": "Algorithme sio1/sio2",
+    "body": "Redéfinir l'algorithme qui détermine si un étudiant est en 1ère ou 2ème année ou est un ancien étudiant.\r\n1) Faire un algorigramme\r\n2) Documentation du code",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/483"
+  },
+  {
+    "number": 482,
+    "title": "Affichage des stagiaires suivi par un enseignant",
+    "body": "Problème de cohérence sur l'affichage des stagiaire suivi par un enseignant. Je vois toujours mes stagiaires de l'an passé.\r\n\r\nUrl: index.php\r\n\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/482"
+  },
+  {
+    "number": 481,
+    "title": "[admin] Envoie mail opérations à valider",
+    "body": "Déclencher l'envoie d'un email (sur une boite à définir) lorsqu'une opération est en attente",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/481"
+  },
+  {
+    "number": 480,
+    "title": "[admin] Nombre d'opérations à valider",
+    "body": "Ajouter une étiquette dans le menu \"Admin\" -> \"Opération à valider\" qui indique le nombre d'opération en attente",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/480"
+  },
+  {
+    "number": 478,
+    "title": "Attestation - conformité",
+    "body": "A revoir la conformition a avec la rénovation du BTS",
+    "state": "open",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/478"
+  },
+  {
+    "number": 477,
+    "title": "Attestation - correction texte",
+    "body": "article 6 en bas de page\r\nArticle 10 manque du texte\r\nTitre 2 modifier Disposition particulière",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/477"
+  },
+  {
+    "number": 476,
+    "title": "Attestion - mail prof",
+    "body": "Mail du professeur a rajouter automatiquement",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/476"
+  },
+  {
+    "number": 475,
+    "title": "Attestion - ponctuation",
+    "body": "Ponctuation non correct",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/475"
+  },
+  {
+    "number": 471,
+    "title": "[Classe] Refonte",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/471"
+  },
+  {
+    "number": 465,
+    "title": "[Vue] logs_details",
+    "body": "Lorsqu'un stage à été créé, le bouton \"Aller sur un stage\" redirige vers la fiche de l'utilisateur",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/465"
+  },
+  {
+    "number": 463,
+    "title": "[ENTREPRISE] ajout manuel",
+    "body": "L'ajout manuel d'une entreprise n'est pas assez sécurisé:\n1) L'enregistrement est réalisé dans la DB dès que tous les champs sont remplis\n2) L'enregistrement dans la base de données n'a pas l'air complet (à vérifier)\n3) Il manque une demande de validation a réaliser par le professeur assigné\n4) L'entreprise ajoutée ne doit être visible tant qu'elle n'a pas été validée\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/463"
+  },
+  {
+    "number": 462,
+    "title": "[CONTACT] update",
+    "body": "1) Si un contact n'a pas été validé, il ne doit pas être affichable depuis l'url.\n2) Modifier les noms et position des boutons\n3) Corriger le bouton \"Cancel\"",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/462"
+  },
+  {
+    "number": 460,
+    "title": "[Vue profil] Tableau de la liste des stage",
+    "body": "Lorsqu'un utilisateur réalise plusieurs stage, le tableau est crée pour chaque stage.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/460"
+  },
+  {
+    "number": 458,
+    "title": "Migration PHP 7.4",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/458"
+  },
+  {
+    "number": 456,
+    "title": "[MOD] annuaire",
+    "body": "Limiter le nombre de caractères affiché pour la colonne NAF.\nValeur à déterminer",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/456"
+  },
+  {
+    "number": 455,
+    "title": "[RM]  JSON",
+    "body": "Suppression du répertoire json",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/455"
+  },
+  {
+    "number": 454,
+    "title": "[BUG] PHP 7.4 undefined function str_contains()",
+    "body": " Fatal error: Uncaught Error: Call to undefined function str_contains() in /home/btssio17/gestage.btssio17.com/gestage/vues/vue_logs_detail.php:151 Stack trace: #0 /home/btssio17/gestage.btssio17.com/gestage/vues/vue_logs_detail.php(100): setNameKey('id') #1 /home/btssio17/gestage.btssio17.com/gestage/router.php(577): include('/home/btssio17/...') #2 /home/btssio17/gestage.btssio17.com/gestage/router.php(618): router('logs_details', Object(PDO)) #3 {main} thrown in /home/btssio17/gestage.btssio17.com/gestage/vues/vue_logs_detail.php on line 151",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/454"
+  },
+  {
+    "number": 453,
+    "title": "[BUG] PHP 7.4 non-numeric value encountered",
+    "body": "Warning\n: A non-numeric value encountered in\n/home/btssio17/gestage.btssio17.com/gestage/vues/vue_profil_gestion.php\non line 54-37",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/453"
+  },
+  {
+    "number": 449,
+    "title": "[BUG] PHP 7.4 priority",
+    "body": "Deprecated: The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/btssio17/gestage.btssio17.com/gestage/vues/accueil.php on line 152",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/449"
+  },
+  {
+    "number": 448,
+    "title": "[BUG] php 7.4 fonction manquante",
+    "body": "\nFatal error: Uncaught Error: Call to undefined function str_starts_with() in /home/btssio17/gestage.btssio17.com/gestage/vues/headers.php:28 Stack trace: #0 /home/btssio17/gestage.btssio17.com/gestage/router.php(19): include() #1 {main} thrown in /home/btssio17/gestage.btssio17.com/gestage/vues/headers.php on line 28",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/448"
+  },
+  {
+    "number": 445,
+    "title": "[CONTACT] Employe",
+    "body": "Utiliser la fonction de vérification email et tel",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/445"
+  },
+  {
+    "number": 443,
+    "title": "[PROFIL] Etudiant",
+    "body": "Ajouter modal pour modifier le tel et le mail + fonction de vérification",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/443"
+  },
+  {
+    "number": 441,
+    "title": "[Entreprise] Changement de nom",
+    "body": "On peut changer un nom d'entreprise en rien du tout",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/441"
+  },
+  {
+    "number": 439,
+    "title": "[Routeur] Erreur php si page non trouvé",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/439"
+  },
+  {
+    "number": 436,
+    "title": "[Vue] Profil",
+    "body": "Le modal de modification d'un mail ne vérifie pas si le mail est écrit correctement ou pas.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/436"
+  },
+  {
+    "number": 435,
+    "title": "[Vue] Import pronote",
+    "body": "Rajouter la classe button sur le bouton importer",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/435"
+  },
+  {
+    "number": 433,
+    "title": "[Accueil] date de stage",
+    "body": "Mettre les date de stage actuelle sur la page d'accueil.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/433"
+  },
+  {
+    "number": 428,
+    "title": "[Classe] Date de stage",
+    "body": "Dans la DB :\n- Ajouter une table date_stage\n- Il y aurait à l'intérieur toutes les stages ancien et actuelle.\n- L'associer tout de même à la classe.\n\nEt faire en sorte de modifier les dates de stage de cette année\n\nMettre avec des tags le nombre de SISR et le nombre de SLAM",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/428"
+  },
+  {
+    "number": 427,
+    "title": "[BUG] Gestion des classes",
+    "body": "La mise à jour de la base de données avec les données de production ne permettent plus de voir le nombre d'étudiants dans une classe depuis la vue gestion de classe.\n\nPour que l'étudiant soit comptabilisé, il faut revalider le formulaire classe depuis sont profil.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/427"
+  },
+  {
+    "number": 422,
+    "title": "[BUG] Acceuil",
+    "body": "La liste des stages à gérer par un professeur ne s'affiche pas.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/422"
+  },
+  {
+    "number": 418,
+    "title": "4 - [STAGE] description",
+    "body": "Ajouter un bouton édition à coté de description \n1) ouvre un modal\n2) Enregistre du texte dans la champs description de la table stage\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/418"
+  },
+  {
+    "number": 417,
+    "title": "3- [BUG] Stage assignation professeur",
+    "body": "Les enseignants sélectionnés depuis router.php?page=stage_read ne sont pas enregistrés. Confusion avec le tuteur",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/417"
+  },
+  {
+    "number": 416,
+    "title": "2- [MOD] Professeur principal",
+    "body": "Créer un formulaire qui permet d'assigner d'un professeur principale pour les SIO1 et SOI2 (le PP)\nCe formulaire doit être accessible depuis une nouvelle page depuis le menu administration professeur -> promotion\n\nCette vue devra permettre :\n* d'assigner un PP pour les SIO1 et SIO2\n\nLe champs professeur_principal doit visible :\n* Depuis le profil des étudiants\n* Dans la convention de stage (ligne \"professeur responsable\")",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/416"
+  },
+  {
+    "number": 415,
+    "title": "5 - [MOD] page=stage_read",
+    "body": "1) Trier par ordre alphabétique la liste des professeurs\n2) Mettre les 2 boutons en bas de page\n3) Changer le nom du bouton \"Récupérer convention\" par \"Télécharger convention\"",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/415"
+  },
+  {
+    "number": 414,
+    "title": "3 - [ETUDIANT] liste",
+    "body": "Afficher la liste des étudiants par ordre alphabétique (Nom)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/414"
+  },
+  {
+    "number": 413,
+    "title": "5 - [STAGE] Création",
+    "body": "# Sélection des étudiants.\nLa liste est trop longue. Faire un filtre par classe avec un toggle SIO1/SIO2",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/413"
+  },
+  {
+    "number": 412,
+    "title": "1 - [BUG] Annuaire entreprise",
+    "body": "Quand on sélectionne une ville et que le filtre n'affiche pas plus de 2 lignes, la fenêtre de filtre n'est plus visible entièrement.\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/412"
+  },
+  {
+    "number": 410,
+    "title": "[BUG] Suppression user",
+    "body": "On se fait déconnecter quand on clique sur le bouton supprimer depuis la page  d'un utilisateur.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/410"
+  },
+  {
+    "number": 406,
+    "title": "[Vue] Gestion etu",
+    "body": "Faire en sorte d'avoir des Switch qui différents qui permet d'avoir différents vision.\n\nPar exemple : Si SIO1 est coché cela désactive tout les autres et affiche seulement tout les SIO1 de la liste.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/406"
+  },
+  {
+    "number": 404,
+    "title": "6 - [Vue] View profil user",
+    "body": "1) Supprimer le bouton Modifier\r\n\r\n2) les étudiant doivent être en mesure modifier le numéro de téléphone et l'email.\n\n3) Seul les professeurs ont le droit de changer la spécialité, la classe et la promotion. ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/404"
+  },
+  {
+    "number": 402,
+    "title": "[VUE] entreprise button retours vers list",
+    "body": "bouton qui nous emmène vers la page de liste entreprises ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/402"
+  },
+  {
+    "number": 399,
+    "title": "[BUG] sur fiche_entreprise",
+    "body": "il faut que après la suppression ca nous ouvre la liste des entreprises ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/399"
+  },
+  {
+    "number": 396,
+    "title": "[ANNUAIRE]",
+    "body": "Ajouter un bouton en face du titre d'une entreprise. \n1) Ouvrira un modal\n2) Modifiera le champ nomEntreprise de la DB\n\n```\n<?php if ($_SESSION['statut'] == \"Professeur\") { ?>\n               <button id=\"openModal\" for=\"modalSpe\" class=\"button is-small\">\n                        <span class=\"icon\">\n                   <i class=\"fas fa-pencil-alt\"></i>\n             </span>\n       </button>\n<?php } ?>\n```\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/396"
+  },
+  {
+    "number": 395,
+    "title": "[Log] Ajout des logs",
+    "body": "Rajout de logs qui ne sont pas répertorié",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/395"
+  },
+  {
+    "number": 393,
+    "title": "[APi] bug",
+    "body": "probleme de récupération des nom d'entreprise quand il s'agit d'une entreprise individuelle.\nl'appellation commercial est une information optionnel pour l'API, il faut dont récupérer les nom et prénom des gérants.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/393"
+  },
+  {
+    "number": 392,
+    "title": "[DB] préparation prod",
+    "body": "Insertion des données de prod",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/392"
+  },
+  {
+    "number": 391,
+    "title": "7 - [ENTREPRISE] Rechercher",
+    "body": "Supprimer:\n- répertoire JSON \n- Controlleur et modèle\n\nConserver la route et  le lien dans la navbar ainsi que la vue:\n\nLa vue affichera 2 gros boutons SLAM et SISR qui pointeront vers une URL que l'on devrait pouvoir préconfigurer, a savoir ajouter des codes NAF ou changer la localisation.\n\nLe lien devra ouvrir un autre onglet.\n\nVoici un exemple non configuré de l'url:\nhttps://annuaire-entreprises.data.gouv.fr/rechercher?terme=&cp_dep_label=Charente-Maritime+%2817%29&cp_dep_type=dep&cp_dep=17&fn=&n=&dmin=&dmax=&type=&label=&etat=&sap=&naf=62.01Z&nature_juridique=&tranche_effectif_salarie=&categorie_entreprise=\n\nPour voir comment sont ajouter des paramètres, rendez-vous  la page :\nhttps://annuaire-entreprises.data.gouv.fr/rechercher\n\n\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/391"
+  },
+  {
+    "number": 390,
+    "title": "[BUG] Mise à jour API",
+    "body": "En voulant mettre à jour l'entreprise CATALISE, elle a été supprimée. De plus bizarrement les stages qui lui étaient assignés ont été transférés à une autre entreprise",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/390"
+  },
+  {
+    "number": 388,
+    "title": "[VUE] Contact détails",
+    "body": "Corrections",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/388"
+  },
+  {
+    "number": 381,
+    "title": "[CONTACT] Anonymisation",
+    "body": "Anonymiser un contact:\n1) Soit manuellement à l'aide d'un bouton\n2) Soit automatiquement via un event SQL",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/381"
+  },
+  {
+    "number": 379,
+    "title": "[FilTRE/TRI] Mod",
+    "body": "Modifier la fonction afin que les champs mesurant plus d'un certain nombre de caractère soit tronqué.  L'idée est de ne plus avoir une select list qui fasse la moitier de la largeur de la page.\nLongeur max du champ à afficher est a derminer",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/379"
+  },
+  {
+    "number": 378,
+    "title": "[Vue] Fiche entreprise maj",
+    "body": "Il y a un problème avec les boutons supprimer et mettre à jour.\r\n\r\nLorsque le bouton \"Supprimer\" est présent et que l'on clique sur \"Mettre à jour (API)\" Cela supprime l'entreprise.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/378"
+  },
+  {
+    "number": 377,
+    "title": "[Vue] view_profil",
+    "body": "Le bouton modifier pour le tuteur et spécialité ne fonctionne plus.\r\nEt le tabeau est hors de la box si la page est petite.\r\n\r\n![image](https://github.com/ornech/gestion_stage/assets/35261972/4262cf72-1d2e-4f31-a52d-8ff1ce63840d)\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/377"
+  },
+  {
+    "number": 376,
+    "title": "[Vue] fiche_entreprise erreur",
+    "body": "En tant qu'étudiant, sur la liste des étudiants qui ont un stage sur l'entreprise sélectionné.\r\nUn texte cliquable vers la fiche d'un étudiant être présente pour les étudiants.\r\n\r\n![image](https://github.com/ornech/gestion_stage/assets/35261972/925445a7-6155-4bb9-941b-b3c037ce5568)\r\n\r\nLorsqu'il clique dessus, un message d'erreur est affiché :\r\n\r\n![image](https://github.com/ornech/gestion_stage/assets/35261972/db62380c-a096-48ad-a2ba-13e76f62a471)\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/376"
+  },
+  {
+    "number": 375,
+    "title": "[VUE] contact edit",
+    "body": "Vue a refaire comme les autre pour le formulaire",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/375"
+  },
+  {
+    "number": 374,
+    "title": "[Site] .htaccess",
+    "body": "Et de jouer et modifier le fichier .htaccess pour ne plus voir router.php?page= dans l'URL.\r\n\r\nExemple de ce qu'un utilisateur verrait s'il est sur l'accueil : https://urlDuSite.domaine/accueil",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/374"
+  },
+  {
+    "number": 365,
+    "title": "[MOD]  Mes stages -> création stage etudiant",
+    "body": "Pour les étudiants, si pas de stage en SIO1 et/ou SIO2\n1) Reprendre le formulaire de Logan pour la création de stage par les professeurs\n2) Supprimer le champs Etudiant et le remplacer par un input HIDDEN qui contiendra l'ID de l'étudiant connecté ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/365"
+  },
+  {
+    "number": 364,
+    "title": "[BUG] Création de stage",
+    "body": "Depuis le menu administration > créer un stage\n1) Les contacts ne s'affichent pas\n2) Le bouton créer un contact ne fonctionne pas\n\nroute: prof_stage_create",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/364"
+  },
+  {
+    "number": 362,
+    "title": "[MOD] Vue annuaire",
+    "body": "Ajout du nombre de stage à la liste",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/362"
+  },
+  {
+    "number": 356,
+    "title": "[Profil] Points",
+    "body": "Le nombre de points qu'est compté pour un utilisateur est incorrecte.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/356"
+  },
+  {
+    "number": 355,
+    "title": "[Vue] fautes de frappes",
+    "body": "Corriger les erreurs de frappes qui ont été laissé dans les vues.\n\nToutes les erreurs remarquées ont été corrigé\n\n(Je n'en ai pas vu d'autres pour l'instant)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/355"
+  },
+  {
+    "number": 354,
+    "title": "[Création de stage] BUG",
+    "body": "Aucune maitre de stage n'apparait dans le select maitre de stage.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/354"
+  },
+  {
+    "number": 353,
+    "title": "[Fiche entreprise] Bugs",
+    "body": "Il y a un texte \"Ajouté par: Ornech Jean-François\" qui apparait hors des box\r\nLe bouton ajouter un stage n'est plus cliquable. ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/353"
+  },
+  {
+    "number": 352,
+    "title": "[Responsive] Tableau",
+    "body": "Pour tout les tableaux du site, ajouter la div <div class=\"table-container\"></div> pour donner un peu plus de responsive pour les petits écran qui ne peuvent pas afficher le tableau en entier.\r\n\r\nLa classe table-container appartient à bulma, elle fait en sorte que la tableau puisse être scrollé de gauche à droite si trop grand.\r\n\r\nVoilà ce que cela pourrait donné :\r\n\r\n```html\r\n<div class=\"table-container\">\r\n   <table class=\"table\">\r\n      <!-- Suite du tableau -->\r\n   </table>\r\n</div>\r\n```\r\n\r\nSUJET A REFLECHIR :\r\nAu lieu de s'embêté à faire cela sur toutes les tables, pourquoi ne pas juste le faire avec du javascript ?\r\n\r\nLorsque la page est chargé, le javascript récupère toutes les balises <table> il effectue un foreach des table récupéré.\r\nIl créer une div avec l'attribut en question et fera un .appendChild(table) sur la div.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/352"
+  },
+  {
+    "number": 351,
+    "title": "[Profil] Mise à jour",
+    "body": "Mettre à jour les utilisateurs de la table lorsqu'un utilisateur avec le statut Professeur se connecte.\r\nCela devrait vérifier ceci :\r\n\r\n- Vérification de la classe des élèves (Modifier si changement requis)\r\n- Vérification de la durée étudiant inscrit (Au delà des 5 ans, anonymiser l'utilisateur.)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/351"
+  },
+  {
+    "number": 349,
+    "title": "[DB] Anonymous",
+    "body": "Au bout de plusieurs années, le nombre de ligne s'appellant anonymous sera beaucoup trop important:\nA l'anonymisaton:\n1) Changer la clé etrangère du stage de cet étudiant afin de pointer vers un utilisateur (unique) anonymous. Les associations avec les stages sont ainsi conservées.\n2) Supprimer la ligne de l'utilisateur",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/349"
+  },
+  {
+    "number": 347,
+    "title": "[VUE] detail entreprise - Delete",
+    "body": "Si professeur:\nAfficher le bouton supprimer une entreprise.\nAttention, pas de supression en cascade sur la base de données. \nL'idée est de pouvoir supprimer uniquement les entreprises qui ont ni contact, ni stage.\n1) Modification de vue\n2) Création du controlleur\n3) Modification du modele Entreprise",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/347"
+  },
+  {
+    "number": 344,
+    "title": "[ACCUEIL] Etudiant",
+    "body": "Réagencement",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/344"
+  },
+  {
+    "number": 335,
+    "title": "[VALIDATION]",
+    "body": "Ajouter une étape de validation pour l'ajout manuel d'un entreprise par un étudiant.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/335"
+  },
+  {
+    "number": 333,
+    "title": "[BUG] page=view_profil",
+    "body": "1) Le lien \"Modifier\" pointe vers l'ID de l'utilisateur connecté et non vers l'utilisateur sélectionné. \n2) Remplacer les card (Bootstrap) par des box (bulma)\n3) Remplacer les non definis avec un icon / truc rouge ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/333"
+  },
+  {
+    "number": 331,
+    "title": "[VUE] Detail entreprise",
+    "body": "Ajout un modal qui demande de saisir le N° Siret\nLa bouton valider du modal exécutera ../controller/api_update.php (la meme chose que le bouton \"mise à jour [API]) ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/331"
+  },
+  {
+    "number": 329,
+    "title": "[Javascript] Ajout d'un script pour ouvrir et fermer un modal",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/329"
+  },
+  {
+    "number": 327,
+    "title": "[DB] update + vue entreprise",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/327"
+  },
+  {
+    "number": 326,
+    "title": "[CONTACT] insertion professeur",
+    "body": "Les professeurs ne doivent pas passer par le processus de validation d'un contact",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/326"
+  },
+  {
+    "number": 323,
+    "title": "[Accueil] Opérations à faire",
+    "body": "Dans l'accueil, ajouter une box dans la page qui rassemble les actions à valider pour un professeur.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/323"
+  },
+  {
+    "number": 321,
+    "title": "Documentation",
+    "body": "Add a `readme.md` file to describe the project and its functionalities.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/321"
+  },
+  {
+    "number": 320,
+    "title": "[LOGGIN] 3 - RGPD",
+    "body": "A) Faire la vue vue_cgu.php\nB) Faire le controlleur\nC) Modifier le modèle, ajouter la méthode qui va bien\n\n## La vue:\n1) détecter si dateFirstConn est NULL\n2)  si NULL Afficher une fenêtre avec un formulaire contenant\n a) un texte avec  scrollbar (les CGU)\n b) un case à cochez \"J'accepte\"\n c) un bouton valider\n3) Dans le backend, insérer NOW() dans dateFirstConn si les CGU ont été accepté. Ne pas laisser d'autre choix",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/320"
+  },
+  {
+    "number": 319,
+    "title": "[LOGGIN] 2 - Reset password",
+    "body": "Modifier le fichier pour le rendre compatible avec l'architecture MCV de l'application. Ce fichier devra disparaître.\n1) Faire la route: reset_password\n2) Faire la vue: vue_reset_password.php\n3) Faire le controlleur: nom à déterminer\n4) Ajouter la méthode reset_password",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/319"
+  },
+  {
+    "number": 318,
+    "title": "[LOGGIN] 1 - MVC",
+    "body": "Convertir le fichier loggin en mvc.\nCe fichier n'est pas au format mvc de l'appli.\n\n1) Faire une route : loggin\n2) Faire le model Loggin.php\n3) Faire le contrôleur: loggin.php\n4) Faire la vue : Vue_loggin.php",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/318"
+  },
+  {
+    "number": 315,
+    "title": "[ETUDIANT] Tuteurs",
+    "body": "a) Supprimer le mécanisme d'association d'un professeur à un stage\r\nb) Ajouter un champs à table user (tuteur)\r\nc) Depuis le profil de l'utilisateur ajouter un menu déroulant qui permet d'assigner un professeur à un étudiant.\r\nd) L'étudiant doit pouvoir voir qui est son tuteur",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/315"
+  },
+  {
+    "number": 314,
+    "title": "[CONTACT] Ajout",
+    "body": "Imposer la validation d'un professeur après l'ajout d'un contact par un étudiant.\r\na) Le contact ajouté ne doit pas apparaitre tant qu'il n'a pas été validé par le professeur\r\nb) modification de la DB, ajout d'un champ contact_valide\r\nc) Ce champ est à 0 par défault\r\nd) Ajouter un menu dans le navbar \"Opérations à valider\" -> Tableau de toutes les validations en attente de tous les étudiants (étudiant, type de demanand, date, tuteur de l'élève)\r\ne) Ajouter une box dans la page d'acceuil qui rassembe les actions à valider pour un professeur",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/314"
+  },
+  {
+    "number": 312,
+    "title": "[ETUDIANT] Supression",
+    "body": "Depuis la page du profil de l'étudiant:\r\n\r\na) Ajouter un bouton rouge \"Supprimer\"\r\nb) Ce bouton doit ouvrir un modal (voir sur bulma) de confirmation et demander de réécrire le prénom pour valider l'opération.\r\nc) En backend, l'utilisateur est anonymisé, c'est à dire que son nom passe à \"ANONYMOUS\" et prénom à \"Anonymous\"\r\nd) Les utilisateurs anonymous ne doivent plus apparaitrent dans la liste de gestion des utilisateurs\r\n\r\nDe plus, pour éviter tout autre problèmes, créer une colonne dans la table user isDeleted* et l'assigné à 1.\r\nEt faire dans toutes les requête de récupération des utilisateurs un condition si isDeleted* est à 0.\r\n\r\nPar exemple pour le login, et le modèle Profil.php.\r\n\r\n*isDeleted nom changeable.",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/312"
+  },
+  {
+    "number": 311,
+    "title": "[BUG] Ajout utilisateur manuel",
+    "body": "Faire en sorte que l'enregistrement du : \r\n a) nom, toutes les lettres soient en majuscule\r\n b) prénom, la première lettre en majuscule. Si prénom composé, le première lettre des prénoms composés est en majuscule (ex Jean-Pierre)",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/311"
+  },
+  {
+    "number": 309,
+    "title": "[Profil] Detail profil bug stage",
+    "body": "Lorsque nous somme sur la route profil et que nous sommes étudiant.\r\nIl y a écrit \"L'étudiant n'a pas effectué de stage.\" alors que dans la base de donnée, cet utilisateur possède tout de même un stage.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/309"
+  },
+  {
+    "number": 304,
+    "title": "[BUG] list",
+    "body": "1 ) Var_dump\r\n2) Warning: Undefined property: stdClass::$nomEtu in /var/www/html/gestion_stage/vues/vue_logs.php on line 30\r\n\r\n![image](https://github.com/ornech/gestion_stage/assets/101867500/ea5bdb54-165a-4fb2-9db9-bc0b0db41077)\r\n\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": "LOG",
+    "url": "https://github.com/ornech/gestion_stage/issues/304"
+  },
+  {
+    "number": 303,
+    "title": "[BUG] Loggin",
+    "body": "Erreur :\r\nWarning: Undefined variable $error_message in /var/www/html/gestion_stage/login.php on line 147",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/303"
+  },
+  {
+    "number": 300,
+    "title": "[ALGO] Prise en compte du redoublement",
+    "body": "Pour la détermination de la classe d'un étudiant, un professeur doit pouvoir modifier la classe d'un étudiant dans le cas d'un redoublement.\r\n\r\n 1) Cette opération doit être réalisable depuis le profil d'un étudiant\r\n 2) Cette données doit être visible mais pas modifiable par un étudiant\r\n 3) Permettre aux professeurs de passer un étudiant en ancien élève\r\n 4) Se pose la question de la gestion automatique de la classe ??? est ce vraiment pertinant ",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/300"
+  },
+  {
+    "number": 295,
+    "title": "[FIX] vue mes stages",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/295"
+  },
+  {
+    "number": 293,
+    "title": "[VUE] recuperer 233 gestion etu",
+    "body": "reucperer",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/293"
+  },
+  {
+    "number": 290,
+    "title": "[VUE] recuperation de branche 232",
+    "body": "recuperer",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/290"
+  },
+  {
+    "number": 289,
+    "title": "[STAGE] mes stages",
+    "body": "Ajouter la vue et la route pour mes_stages",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Stage",
+    "url": "https://github.com/ornech/gestion_stage/issues/289"
+  },
+  {
+    "number": 287,
+    "title": "[Stage] Prof create stage",
+    "body": "Lorsque l'utilisateur n'as pas sélectionné un autre maitre de stage, le bouton reste bloqué sur disabled",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Stage",
+    "url": "https://github.com/ornech/gestion_stage/issues/287"
+  },
+  {
+    "number": 282,
+    "title": "[DB] conformité RGPD",
+    "body": "Ajouter le champs date de 1ere connection (si vide pas de 1ere connection)",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/282"
+  },
+  {
+    "number": 281,
+    "title": "[VUE] detail user",
+    "body": "1) Avoir la possibilité de modifier ses infos personelles\r\n a) email\r\n b) tel\r\n c) adresse (rue, cp, ville)",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/281"
+  },
+  {
+    "number": 280,
+    "title": "[User] Login.php, login utilisateur incorrect",
+    "body": "Sur la page de connexion, lorsque nous rentrons un nom d'utilisateur incorrect des warnings PHP s'affiches.\r\n\r\n![image](https://github.com/ornech/gestion_stage/assets/35261972/5645fd4b-a63d-4b21-8b73-895fdd5169ab)\r\n\r\nWarning N°1 :\r\n`` Warning: Trying to access array offset on value of type bool in D:\\Projets\\Devs\\Stage\\gestion_stage\\login.php on line 5``\r\nWarning N°2 :\r\n``Deprecated: password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in D:\\Projets\\Devs\\Stage\\gestion_stage\\login.php on line 53``\r\nWarning N°3 :\r\n``Warning: Trying to access array offset on value of type bool in D:\\Projets\\Devs\\Stage\\gestion_stage\\login.php on line 70``",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/280"
+  },
+  {
+    "number": 275,
+    "title": "[Stage] Création d'un stage étudiant en tant que professeur",
+    "body": "Depuis la vue prof_stage_create, un professeur est capable de créer un stage pour un utilisateur.\r\n\r\n- Un prof est capable de créer un stage pour lui-même ou un autre professeur.\r\n\r\nL'objectif est d'afficher uniquement les étudiants SIO1 et SIO2 dans le tableau de sélection d'un utilisateur.",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Stage",
+    "url": "https://github.com/ornech/gestion_stage/issues/275"
+  },
+  {
+    "number": 274,
+    "title": "[LOG] Vue détails",
+    "body": "Faire la vue détaillé d'un log.\r\nCe qu'il y aura de visible sur cette vue :\r\n\r\n- Le nom et prénom et la classe de la personne rattaché au log\r\n- Le type de modification\r\n- Le lien direct vers la vue contact/entreprise/stage modifié\r\n- Vision de la modification effectué \r\n(Afficher seulement la nouvelle données, si les anciennes données sont à NULL)\r\n- La date précise de ce log",
+    "state": "closed",
+    "labels": [],
+    "milestone": "LOG",
+    "url": "https://github.com/ornech/gestion_stage/issues/274"
+  },
+  {
+    "number": 273,
+    "title": "[FIX] Correction vue stage",
+    "body": "1) Poursuivre la nouvelle mise en page\r\n a) Ajouter la durée et la date\r\n2) Ajouter le contact de l'entreprise (nom, prénom, fonction, tel, email)\r\n3) Ajouter la logique si etuditant et si prof\r\n a) Si etudiant: uniquement de la lecture\r\n b) Si professeur: ajouter bouton modifier\r\n c) ajouter le bouton d'inpression de la convention\r\n4) Supprimer l'ancienne mise en page",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Stage",
+    "url": "https://github.com/ornech/gestion_stage/issues/273"
+  },
+  {
+    "number": 271,
+    "title": "[ACCEUIL]",
+    "body": "# Pour tous le monde:\nIndiquez les champs du profil personnel à renseigner. (Message d'alert en orange avec le lien vers la page de modification du profil)\n\n# Si professeur, afficher :\n- Les stagiaires assignés\n\n# Si étudiant\n- Afficher un descriptif d'utilisation de l'application (ORN le fera) . Juste prévoir le conteneur",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/271"
+  },
+  {
+    "number": 270,
+    "title": "[BUG] Stage",
+    "body": "Un professeur a la possibilité de s'assigner lui même à un stage. \r\n* Ajouter la condition si statut=prof alors ne pas afficher le bouton de création de statge ainsi que le message d'information.",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Stage",
+    "url": "https://github.com/ornech/gestion_stage/issues/270"
+  },
+  {
+    "number": 268,
+    "title": "[FIX] Log",
+    "body": "fix nom de variables",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/268"
+  },
+  {
+    "number": 265,
+    "title": "[Stage] Édition du stage",
+    "body": "Actuellement on modifie avec la condition WHERE suivante : \n``WHERE idEtudiant=:idEtudiant``\nCela veut dire que tout les stage d'un étudiant va être modifié.\n\nIl faudra alors récupérer l'ID d'un stage et le mettre dans le WHERE",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Stage",
+    "url": "https://github.com/ornech/gestion_stage/issues/265"
+  },
+  {
+    "number": 264,
+    "title": "[CONTACT] durée de validé",
+    "body": "1) Un contact inséré dans la base de données doit avoir une durée de validité 5 ans max. \n2) Reprendre la vue contact",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/264"
+  },
+  {
+    "number": 263,
+    "title": "[VUE] Détail stage",
+    "body": "Les informations ne sont pas assez lisible:\n1) Restructurer l'organisation des données\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/263"
+  },
+  {
+    "number": 262,
+    "title": "[VUE] Stage list",
+    "body": "1) Enlever les liens vers le profil, l'entreprise\r\n2) Ne pas présenter le prof assigné\r\n3) Enlever les boutons\r\n4) Si on clique sur la ligne on ouvre les détails du stage",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Stage",
+    "url": "https://github.com/ornech/gestion_stage/issues/262"
+  },
+  {
+    "number": 261,
+    "title": "[BUG] Création utilisateur",
+    "body": "Lorsque l'on tente de se connecter avec un nouvel utilisateur créé manuellement, on obtient cette erreur:\n\n```\nWarning: Trying to access array offset on value of type bool in /var/www/html/gestion_stage/login.php on line 53\n\nWarning: Trying to access array offset on value of type bool in /var/www/html/gestion_stage/login.php on line 70\n```",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/261"
+  },
+  {
+    "number": 257,
+    "title": "[Stage edit] Bug maitre de stage",
+    "body": "Une fois la liste de stage créé, le, nouveau contact n'est pas ajouté dans la liste.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/257"
+  },
+  {
+    "number": 254,
+    "title": "[BUG] Ajout utilisateur",
+    "body": "L\"ajout manuel d'un utilisateur s'effectue correctement dans la base de donnée mais ne s'affiche pas dans la liste.\n\nSans doute en lien avec la date d'entrée\n(extrait enregistrement DB)\n314|etudiant |etudiant | | | |SLAM| |2025 |etudiant\n\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/254"
+  },
+  {
+    "number": 250,
+    "title": "[DB] Update",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/250"
+  },
+  {
+    "number": 247,
+    "title": "add LICENCE",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/247"
+  },
+  {
+    "number": 246,
+    "title": "[VUE] Profil ajout",
+    "body": "Rendre conforme au reste du site et intégrer bulma",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/246"
+  },
+  {
+    "number": 245,
+    "title": "[LOG] Affichage des log",
+    "body": "Faire une vue des actions du log",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/245"
+  },
+  {
+    "number": 244,
+    "title": "[LOG] Lister les actions utilisateur",
+    "body": "Faire une fonction qui enregistre une action dont on souhaite conserver la trace. Typiquement la modification d'une données dans la base de données  (qui, quand et ancienne valeur, nouvelle valeur).\n\nCette fonction devra facilement être insérée dans une méthode d'un modèle par exemple s'il s'agit d'un update ou d'un insert SQL. ",
+    "state": "closed",
+    "labels": [],
+    "milestone": "LOG",
+    "url": "https://github.com/ornech/gestion_stage/issues/244"
+  },
+  {
+    "number": 243,
+    "title": "[VUE] contact detail modification",
+    "body": "Permettre la modification des données\nUtliser le lien \"edit\" de la vue contact",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/243"
+  },
+  {
+    "number": 242,
+    "title": "[VUE] contact detail",
+    "body": "Reprendre la mise en page. C'est pas beau",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/242"
+  },
+  {
+    "number": 241,
+    "title": "[PROFIL] Modification",
+    "body": "Depuis la page du profil utilisateur permettre la modification des:\n * Tel\n * Mail\n * Adresse (?)",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/241"
+  },
+  {
+    "number": 240,
+    "title": "[VUE] recherche",
+    "body": "1) Ajouter la fonction filtre/trie sur les entêtes du tableau\n2) Rendre compatible bulma",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/240"
+  },
+  {
+    "number": 239,
+    "title": "[convention] renomme pdf",
+    "body": "Est-il possible de renommer le pdf en:\nconvention-stage-nom de l'étudiant ?",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/239"
+  },
+  {
+    "number": 237,
+    "title": "[DB] Vue stage",
+    "body": "-- gestion_stage.vue_stage source\n\nCREATE OR REPLACE\nALGORITHM = UNDEFINED VIEW `gestion_stage`.`vue_stage` AS\nselect\n    `s`.`id` AS `idStage`,\n    `s`.`idEntreprise` AS `idEntreprise`,\n    `s`.`idMaitreDeStage` AS `idMaitreDeStage`,\n    `s`.`idEtudiant` AS `idEtudiant`,\n    `s`.`classe` AS `classe`,\n    `u`.`statut` AS `Statut`,\n    `s`.`description` AS `description`,\n    `s`.`dateDebut` AS `dateDebut`,\n    `s`.`dateFin` AS `dateFin`,\n    `s`.`idProfesseur` AS `idProfesseur`,\n    `u`.`nom` AS `EtudiantNom`,\n    `u`.`prenom` AS `EtudiantPrenom`,\n    `u`.`email` AS `EtudiantEmail`,\n    `u`.`email` AS `EtudiantTel`,\n    `u`.`spe` AS `EtudiantSpe`,\n    `u`.`promo` AS `EtudiantPromo`,\n    `e`.`siret` AS `siret`,\n    `e`.`nomEntreprise` AS `Entreprise`,\n    `e`.`adresse` AS `Entreprise_adresse`,\n    `e`.`codePostal` AS `Entreprise_codePostal`,\n    `e`.`ville` AS `Entreprise_ville`,\n    `e`.`effectif` AS `Entreprise_effectif`,\n    `e`.`naf` AS `Entreprise_naf`,\n    `m`.`nom` AS `employe_nom`,\n    `m`.`prenom` AS `employe_prenom`,\n    `m`.`fonction` AS `employe_fonction`,\n    `m`.`email` AS `employe_mail`,\n    `m`.`telephone` AS `employe_telephone`\n\nfrom\n    (((`gestion_stage`.`stage` `s`\njoin `gestion_stage`.`user` `u` on\n    (`s`.`idEtudiant` = `u`.`id`))\njoin `gestion_stage`.`entreprise` `e` on\n    (`s`.`idEntreprise` = `e`.`id`))\njoin `gestion_stage`.`employe` `m` on\n    (`s`.`idMaitreDeStage` = `m`.`id`));",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/237"
+  },
+  {
+    "number": 236,
+    "title": "[Annuaire] Modifié entreprise",
+    "body": "L'import du nom d'une entreprise pose des problèmes. \n\nSolution: \n * Pourvoir modifier les champs si \"Non défini\" est enregistré.\n\nProposition:\n * Ajouter un lien \"modifier\" qui affiche un champ de saisie et un bouton valider, puis recharge la page\n * Masquer le lien si le champs contient des données valides",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/236"
+  },
+  {
+    "number": 235,
+    "title": "[Gestion] utilisateurs",
+    "body": "Bouton Désactivé\n\nBUG:\n Warning: Cannot modify header information - headers already sent by (output started at /var/www/html/gestion_stage/vues/navbar_prof.php:54) in /var/www/html/gestion_stage/model/Profil.php on line 156",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/235"
+  },
+  {
+    "number": 234,
+    "title": "[BUG] Stage SIO2",
+    "body": "La liste déroulante pour l'assignation de l'enseignant à un stage pour les SIO2 n’apparaît pas ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/234"
+  },
+  {
+    "number": 233,
+    "title": "[VUE] détails utilisateur",
+    "body": "Si professeur:  \r\nAfficher un bouton \"Spécialité\" ou une icone crayon-> Ce bouton ouvre un modal\r\nCe modal affiche:\r\n1) un titre \"Modification de la spécialité\"\r\n2) Un texte qui afficher \"Modifier le choix de spécialité de l'étudiant: nom et prénom de l'étudiant\r\n3) La liste déroulante ( Aucune, SISR ou SLAM) \r\n\r\n * Si \"Aucune\" le champs de la DB est laissé vide,\r\n * Si SISR ou SLAM, on enregistre l'information dans la DB\r\n\r\nSi etudiant:  \r\n * Afficher le texte uniquement de sa spécilité",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/233"
+  },
+  {
+    "number": 232,
+    "title": "[VUE] stage_edit",
+    "body": "Modifier le titre par:\nStage (SIO1 ou SIO2): Nom et prénom",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/232"
+  },
+  {
+    "number": 231,
+    "title": "[BUG] menu SIO1 et SIO2",
+    "body": "Le menu devient transparent quand on clique sur stages > SIO1 ou SIO2.\nIl redevient normal quand on clique sur un autre menu",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/231"
+  },
+  {
+    "number": 229,
+    "title": "[Stage] Vue de la classe modification",
+    "body": "Ajout du bouton modifier pour modifier le stage d'un étudiant\r\nRemplacement de classe par entreprise, et faire en sorte de rediriger vers le lien de stage détaille",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/229"
+  },
+  {
+    "number": 224,
+    "title": "[Stage] Modifier prof_stage_create",
+    "body": "La modifier pour remplacer l'input de maitre de stage par un select",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/224"
+  },
+  {
+    "number": 222,
+    "title": "[Header] Corriger l'erreur de redirection",
+    "body": "Corriger l'erreur :\r\nWarning: Cannot modify header information - headers already sent by (vue navbar_prof et navbar_etu)\r\n\r\nElle empêche de rediriger vers la vue erreur lorsqu'il y a une erreur.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/222"
+  },
+  {
+    "number": 219,
+    "title": "[Stage] Vue stage par classe",
+    "body": "Ajouter un nouvelle icône lorsque les informations sont incomplètes",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/219"
+  },
+  {
+    "number": 217,
+    "title": "[Contact] edit",
+    "body": "Avoir la possibilité de modifier un contact. \n\n**Modification:**\n1) Tel\n2) mail\n3) service\n4) nom et prénom (en cas d'erreur de frappe. \n\n(Ce point ne nous met pas à l'abri de saisie malveillante)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/217"
+  },
+  {
+    "number": 216,
+    "title": "[Stage] Edit",
+    "body": "Avoir la possibilité de modifier un stage. \n\n1) Changer d'entreprise.\n2) Ajouter ou mettre à jour un maitre de stage\n3) Modifier la date ou le temps",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/216"
+  },
+  {
+    "number": 215,
+    "title": "[VUE] Proposition list stage",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/215"
+  },
+  {
+    "number": 214,
+    "title": "[STAGE] détails",
+    "body": " Ajouter un lien ou un bouton depuis la liste des stages qui pointe vers les détails d'un stage.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/214"
+  },
+  {
+    "number": 212,
+    "title": "[VUE] bug Convention",
+    "body": "Désactiver le dark mode. pb de génération pdf",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/212"
+  },
+  {
+    "number": 210,
+    "title": "[import pronote] BUG",
+    "body": "Les prénoms importé n'ont pas de première lettre en majuscule",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/210"
+  },
+  {
+    "number": 202,
+    "title": "[VUE] list entreprise",
+    "body": "Utiliser le tag pour afficher le nombre d'entreprises dans l'annuaire\n+------------------+----+\n| Entreprises |xxx |\n+------------------+----+\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/202"
+  },
+  {
+    "number": 200,
+    "title": "[Stage] Fonction assigner un professeur",
+    "body": "Requis :\r\nAvoir fait l'issue #199\r\n\r\nPermettre depuis le tableau d'assigner un professeur à un élève pour son suivi de stage.\r\nEt supprimer sur la navbar : \"Suivi-étudiant\"",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/200"
+  },
+  {
+    "number": 199,
+    "title": "[STAGES] Remaniement de la vue_stage",
+    "body": "Il faut intégré la liste complètes des élèves :\r\n- Lignes pour les étudiants qui n'ont pas de stage\r\n- Changer la couleur du TR en rouge si l'étudiant n'as pas de stage ```<tr class=\"is-danger\"></tr>```\r\n- Changer la couleur du TR en orange si l'étudiant a un stage mais incomplet au niveau des données ```<tr class=\"is-danger\"></tr>```\r\n- Changer la couleur du TR en vert a une stage et les informations sont complètes```<tr class=\"is-danger\"></tr>```",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/199"
+  },
+  {
+    "number": 197,
+    "title": "[Stage] modèle list_by_stage",
+    "body": "Fichier: stage.php\nAjouter la méthode list_by_stage\n\nCette méthode doit renvoyer la liste des stages depuis la vue_stage.\n\nPas de codage en dur du nom de la vue  dans la requête. Utiliser uniquement la variable.\n\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/197"
+  },
+  {
+    "number": 196,
+    "title": "[modele] fix stage assignation",
+    "body": "Modifier la requête SQL pour que seuls les stages de l'année en cours soient renvoyés. \n\nFichier: modele/Stage.php\nMéthode: public function assignation_suivi($idStage, $idProfesseur)\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/196"
+  },
+  {
+    "number": 194,
+    "title": "[DB] Maj stage",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/194"
+  },
+  {
+    "number": 188,
+    "title": "[FIX] Modèle Profil",
+    "body": "Remplacement et correct des méthodes\n```\npublic function list_by_etudiant() {\n   $sql = \"SELECT * FROM \" . $this->table_name . \" WHERE statut = 'Etudiant'\";\n   $stmt = $this->conn->prepare($sql);\n   $stmt->execute();\n   return $stmt->fetchAll(PDO::FETCH_OBJ);\n }\n\n public function list_by_professeur() {\n    $sql = \"SELECT * FROM \" . $this->table_name . \" WHERE statut = 'Professeur'\";\n    $stmt = $this->conn->prepare($sql);\n    $stmt->execute();\n    return $stmt->fetchAll(PDO::FETCH_OBJ);\n  }\n```",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/188"
+  },
+  {
+    "number": 187,
+    "title": "[STAGE] Vue stage_ajout_suivi",
+    "body": "1) Créer la vue stage_ajout_suivi.php\n2) Instancié les méthodes:\n *  list de la classe Stage, pour récupérer la liste des stages. Pour t'aider fait un copier coller des noms de colonnes de la vue SQL pour ne pas galérer avec le tableau associatif que te renverra l'instance list.\n * La liste des professeur  list_by_professeur de la classe Profil. \n3) Faire le formulaire avec:\n * Une liste déroulante avec le nom prénom du stagiaire et sa classe. La valeur  de ce champs sera l'id du stage\n* Si un stage à déjà un professeur qui le suivi, il ne faut pas afficher ce stage\n * Une liste avec les professeurs. La valeur de ce champs sera l'id du professeur de la table user. \n4) Le formulaire doit pointer vers le contrôleur que tu viens de créer ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/187"
+  },
+  {
+    "number": 186,
+    "title": "[STAGE] Suivi stage controlleur",
+    "body": "1) Créer le controleur stage_suivi.php\n2) Ce controlleur doit récupérer les id du stage et du professeur\n3) Ce controlleur doit intancier la classe que tu viens de créer dans Stage.php avec  et fournir les 2 paramètres à ta méthode, l'id du stage et l'id du professeur.\n\nInspire toi de ce qui a déjà été fait.\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/186"
+  },
+  {
+    "number": 185,
+    "title": "[PHP] revoir algorithme classe",
+    "body": "Reprendre l'algo : \r\na) un étudiant doit pouvoir être transféré dans un classe manuellement\r\nb) un étudiant doit pouvoir être passé en ancien élève manuellement\r\n\r\nJe pense qu'un algorithme ne peut générer cela et qu'il faut passer par un opération manuelle",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Utilisateur",
+    "url": "https://github.com/ornech/gestion_stage/issues/185"
+  },
+  {
+    "number": 183,
+    "title": "[STAGE] Convention",
+    "body": "Pré requis:\nAvoir une vue qui affiche les détails d'une stage..\nAvoir une méthode qui renvoie la liste des stages.\n\nDepuis cette vue, remplir les informations de la convention de stage . Nom du stagiaire, nom entreprise , etc ....",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/183"
+  },
+  {
+    "number": 180,
+    "title": "[STAGE] Modèle suivi stage",
+    "body": "Ajouter la méthode suivi_stage() à la classe Stage.\nCette méthode recevra 2 paramètres:\n * L'Id du stage\n * L'id du professeur\nC'est à dire quelle devra ressembler à qqc comme ça :\n```\n  public function suivi_stage($idStage, idPorf) {\n    $sql = \"UPDATE  ...  WHERE id = :idStage\";\n    $stmt = $this->conn->prepare($sql);\n    $stmt->bindParam(':idStage', $idStage);\n    $stmt->bindParam(':idPorf', $idPorf);\n    $stmt->execute();\n  }\n```\nA toi de compléter la syntaxe SQL pour que la requête soit correct.\nCeci est un exemple et pas du code à copier coller.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/180"
+  },
+  {
+    "number": 178,
+    "title": "[VUE] convention",
+    "body": "Création de la vue convention de stage",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/178"
+  },
+  {
+    "number": 176,
+    "title": "[VUE] fix entreprise detail",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/176"
+  },
+  {
+    "number": 175,
+    "title": "[VUE] détail entreprise",
+    "body": "Reprendre les tags pour afficher:\n * Contact (nombre de contact)\n * Stage (nombre de stage)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/175"
+  },
+  {
+    "number": 172,
+    "title": "[DB] gestion_stage_20240528",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/172"
+  },
+  {
+    "number": 169,
+    "title": "[BUG] import entreprise",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/169"
+  },
+  {
+    "number": 165,
+    "title": "[Stage] Consignes",
+    "body": "Consignes à l'attention des étudiants ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/165"
+  },
+  {
+    "number": 164,
+    "title": "[ADMIN] Gestion utilisateur filtre/trie",
+    "body": "Ajouter la fonction filtre/trie",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/164"
+  },
+  {
+    "number": 161,
+    "title": "[REVUE CODE]  05/06/2024",
+    "body": "#  Horaires \nRevue de code a 15h. \n\n# Ordre du jour\n * Inspection des modèles afin d'identifier les méthodes non conformes ou inutilisées. Seront passées en revue toutes les méthodes. \n * Inspection des routes",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/161"
+  },
+  {
+    "number": 160,
+    "title": "[ROUTE] inspection",
+    "body": "Lister l'ensemble des routes du fichiers router.php.\n(Pour en parler en revue de code)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/160"
+  },
+  {
+    "number": 159,
+    "title": "Liquidbase",
+    "body": "Il me semble important de mettre en place un suivi de version de base de données avec GitHub. Pour cela on aurait LiquidBase .\n\nAprès installation et configuration de LiquidBase, on peut l'intégrer a Git comme ceci :\n\n1. Créez des fichiers de changelog Liquibase pour documenter les modifications de schéma de base de données.\n2. Ajoutez ces fichiers de changelog au dépôt Git.\n3. Les développeurs poussent et tirent les modifications de ces fichiers via GitHub.\n4. À chaque déploiement, Liquibase applique les changements de schéma basés sur les changelogs versionnés dans Git.\n\nCela permet de suivre les modifications de la base de données tout en utilisant Git pour le contrôle de version.\n\nMerci chatGPT 😉",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/159"
+  },
+  {
+    "number": 157,
+    "title": "[ACCEUIL] index.php",
+    "body": "1) Afficher les statistiques suivantes:\r\n * nbr de stages réalisés\r\n * nbr d'entreprises enregistré dans l'annuaire\r\n\r\n2) Afficher les dates des périodes de stages SIO1 et SIO2\r\n\r\n3) Affichez les informations relatives au déroulement des stages\r\n\r\n4) Permettre le téléchargement de la convention de stage ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/157"
+  },
+  {
+    "number": 156,
+    "title": "[PROFIL] Stage",
+    "body": "Depuis son profil d'un étudiant, afficher le stage de SIO1 et/ou SIO2 qu'il a réalisé .\r\nAfficher un message si aucun stage n'a été trouvé pour cet étudiant",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/156"
+  },
+  {
+    "number": 155,
+    "title": "[STAGE] Navbar admin",
+    "body": "Ajouter un lien pour la création d'un stage à la navbar prof -> Administration\r\nCréer une page qui permet d'ajouter un stage pour un étudiant.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/155"
+  },
+  {
+    "number": 154,
+    "title": "[VUE] Entreprise détails",
+    "body": "SI le nombre de contact de cette entreprise = 0 \r\n * ALORS Masquer l'ajout de stage et afficher \"Pour ajouter un stage vous devez d'abord créer un contact pour cette entreprise  \r\n\r\nSINON\r\n* Afficher touts les stages effectués dans cette entreprise",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/154"
+  },
+  {
+    "number": 152,
+    "title": "[FIX] modele entreprise",
+    "body": "Renvoie vers la vue de l'entreprise si le signal SQL 45001 est déclenché par le trigger entreprise.Test_redondance au lieu d'afficher une erreur",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/152"
+  },
+  {
+    "number": 151,
+    "title": "[FIX] page=stage_sio2",
+    "body": "Warning: Cannot modify header information - headers already sent by (output started at /var/www/html/gestion_stage/vues/navbar_prof.php:57) in /var/www/html/gestion_stage/model/Stage.php on line 56",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/151"
+  },
+  {
+    "number": 150,
+    "title": "[FIX] page=stage_sio1",
+    "body": "Warning: Cannot modify header information - headers already sent by (output started at /var/www/html/gestion_stage/vues/navbar_prof.php:57) in /var/www/html/gestion_stage/model/Stage.php on line 56",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/150"
+  },
+  {
+    "number": 148,
+    "title": "[FIX] Loggin logo",
+    "body": "+ vue stage list",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/148"
+  },
+  {
+    "number": 146,
+    "title": "[FIX PHP] Nom tables modèles",
+    "body": "Modifier les noms des tables utilisées dans les requêtes préparées.\nNormalement ces noms des tables sont  définis dans la variable:\n * private $table_name\nSi ce n'est pas le cas, apporter la correction pour que ce le soit et mettre le nom en miniscule.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/146"
+  },
+  {
+    "number": 145,
+    "title": "[FIX DB] Nom tables database",
+    "body": "Passer tous les noms de table en miniscule.\nLoggan Fait un export de ta base de données avec phpmyadmin\n * vérifie les noms des tables. \n * Si le nom des tables en minuscule, on repartira de ton export.\n * Sinon on se cogne les midifs à la main  ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/145"
+  },
+  {
+    "number": 138,
+    "title": "[Admin] accueil",
+    "body": "* Nombres de comptes actif\r\n* Nombre de compte désactivé \r\n* Nombre de demande de réinitialisation de mot de passe\r\n* Nombre de compte qui n'ont pas encore changer leur mot de passe\r\n\r\nCode a tester:\r\n```\r\n<div class=\"field is-grouped is-grouped-multiline\"> <div class=\"control\"> <div class=\"tags has-addons\"> <span class=\"tag is-dark\">npm</span> <span class=\"tag is-info\">1.0.0</span> </div> </div> <div class=\"control\"> <div class=\"tags has-addons\"> <span class=\"tag is-dark\">build</span> <span class=\"tag is-success\">passing</span> </div> </div> <div class=\"control\"> <div class=\"tags has-addons\"> <span class=\"tag is-dark\">chat</span> <span class=\"tag is-primary\">on gitter</span> </div> </div> </div>\r\n```\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/138"
+  },
+  {
+    "number": 137,
+    "title": "[entreprise] accueil",
+    "body": "Les pages d'accueil des NAVBAR devrait présenter des statistiques de la rubrique en question.\n\nEntreprise:\n* Nombre d'entreprises dans la DB\n* Nombre de contacts \n* Nombre de stages en sio1 sio2 et chez les anciens élèves \n\nPlus un texte explicatif sur le fonctionnement et l'utilisation de cette rubrique.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/137"
+  },
+  {
+    "number": 135,
+    "title": "[loggin] update test",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/135"
+  },
+  {
+    "number": 134,
+    "title": "[BUG] import entreprise",
+    "body": "Si le N° de Siret est incorrect, un enregistrement vide est quand même réalisé. \nFichiers: \nmodel/Entreprise.php ->  function importer\ncontroller/entreprise_import.php\n\nA corriger rapidement\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/134"
+  },
+  {
+    "number": 131,
+    "title": "[JS] BUG Filtre/Trie",
+    "body": "1) Quand la liste déroulante perd le focus la boite de dialogue se ferme. A corriger\n2) Ouverture de la fenêtre sur un clique plutôt que sur un survol\n",
+    "state": "closed",
+    "labels": [
+      "bug",
+      "Amélioration"
+    ],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/131"
+  },
+  {
+    "number": 128,
+    "title": "[VUES] Entreprises",
+    "body": "Standardisation des titres des vues entreprise",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/128"
+  },
+  {
+    "number": 126,
+    "title": " [NAVBAR]  prof",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/126"
+  },
+  {
+    "number": 124,
+    "title": "[NAVBAR] Étudiants ",
+    "body": "Modifier la navbar Etudiant:\r\nEntreprises (Annuaire, Recherche )| Stages (Démarches, Mes stages | Profil (Mon compte, se déconnecter)\r\n\r\n\r\n> Note:\r\n> Les symboles | sépare un menu. Les (...) indique son sous menu\r\n> Les liens doivent rester vide si la vues, modèle ou controlleur en question ne sont pas encore codé.\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/124"
+  },
+  {
+    "number": 123,
+    "title": "[ADMIN] chiffrage paramètres GET ",
+    "body": "Exemple de code\n``` PHP\ndefine('ENCRYPTION_KEY', 'votre_cle_de_32_caracteres'); // Clé de 256 bits\n\nfunction encrypt($data) {\n    $key = ENCRYPTION_KEY;\n    $iv = openssl_random_pseudo_bytes(16); // Générer un IV de 16 bytes\n    $encrypted = openssl_encrypt($data, 'aes-256-cbc', $key, 0, $iv);\n    return base64_encode($encrypted . '::' . $iv); // Encodage base64 pour transmission sécurisée\n}\n\nfunction decrypt($data) {\n    $key = ENCRYPTION_KEY;\n    list($encrypted_data, $iv) = explode('::', base64_decode($data), 2); // Séparer les données chiffrées de l'IV\n    return openssl_decrypt($encrypted_data, 'aes-256-cbc', $key, 0, $iv);\n}\n\n// Chiffrer le paramètre\n$param = 'valeur_a_chiffrer';\n$encrypted_param = encrypt($param);\n$url = 'votrepage.php?param=' . urlencode($encrypted_param);\necho 'URL avec paramètre chiffré : ' . $url . PHP_EOL;\n\n// Déchiffrer le paramètre dans votrepage.php\nif (isset($_GET['param'])) {\n    $encrypted_param = $_GET['param'];\n    $decrypted_param = decrypt($encrypted_param);\n    echo 'Paramètre déchiffré : ' . $decrypted_param;\n}\n```\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/123"
+  },
+  {
+    "number": 120,
+    "title": "[STAGE] doublon stage",
+    "body": "Etre certain qu'un utilisateur ne puisse pas enregistrer plusieurs stages en 1ere ou 2e année.\nCeci induit le problème des ajouts de stages hasardeux voir malveillant (je clique parce que c'est drôle et que ça mettra le bazard). \nFaire un trigger sur la BD avant un insert et renvoyer sur la page de modification du stage pour effectuer les modifications nécessaires afin qu'il y ait par étudiant un seul stage en sio1 et sio2. ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/120"
+  },
+  {
+    "number": 119,
+    "title": "[Admin] password_reset.php",
+    "body": "Un utilisateur à toujours accès à la page password_reset.php, et peut donc toujours changer son mot de passe à tout moment en accédant à la page.\r\n\r\nIl faudrait également supprimé le get sur l'URL car il n'est en fait pas utilisé pour le changement de mot de passe.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/119"
+  },
+  {
+    "number": 118,
+    "title": "[ADMIN] protection route",
+    "body": "Trouver un moyen de bloquer certaines route en fonction du statut de l'utilisateur ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/118"
+  },
+  {
+    "number": 114,
+    "title": "function sio1_2_ancien éleve ",
+    "body": " Exécuter la fonction qui verifie la classe d'un étudiant au loggin d'un prof:\n* si pas de changement pas de requete\n* si changement faire un INSERT sur la table User dans la colonne classe pour modifier \"SIO2\" ou \"ancien èleve\")\n\n> Note: par défaut l'importation par le fichier csv de Pronote enregistre les étudiants en SIO1",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/114"
+  },
+  {
+    "number": 112,
+    "title": "[Stage] Création du modèle Stage",
+    "body": "Création du modèle Stage pour traité les méthodes de création d'un stage, de récupération d'un stage.",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[STAGE]",
+    "url": "https://github.com/ornech/gestion_stage/issues/112"
+  },
+  {
+    "number": 104,
+    "title": "[IMPORT] Mod",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/104"
+  },
+  {
+    "number": 101,
+    "title": "[BULMA] thème selection",
+    "body": "Déterminer un moyen pour proposer de passer du thème light ou dark (peut-être depuis la page de login ?)",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/101"
+  },
+  {
+    "number": 100,
+    "title": "[PHP] sio1/sio2",
+    "body": "1) Faire une fonction PHP qui détermine si un utilisateur est en 1ere, 2ème année, un ancien étudiant ou un professeur \n2) Déterminer le meilleur emplacement afin qu'elle soit accessible partout",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/100"
+  },
+  {
+    "number": 99,
+    "title": "[VUE] profil detail",
+    "body": "Refonte entière de la vue qui affiche les détails d'un profil.\nFaites des propositions en utilisant au mieux les différents composants Bulma",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/99"
+  },
+  {
+    "number": 97,
+    "title": "[LOGGIN] nouveau",
+    "body": "Remplacement de l'ancien loggin.php",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/97"
+  },
+  {
+    "number": 93,
+    "title": "Import pronote",
+    "body": "Importation d'étudiants depuis pronote",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/93"
+  },
+  {
+    "number": 92,
+    "title": "[BULMA] Login",
+    "body": null,
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/92"
+  },
+  {
+    "number": 91,
+    "title": "[ENTREPRISE] vue fiche entreprise au bulma",
+    "body": "passer de bootstrap à bulma",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/91"
+  },
+  {
+    "number": 88,
+    "title": "[Loggin] Optimisation",
+    "body": "Optimiser la page loggin:\r\n1) Elle devra intégrer le header et footer, mais pas le navbar\r\n2) Devra être sobre mais élégante\r\n3) Intégrer Bulma ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/88"
+  },
+  {
+    "number": 87,
+    "title": "[JS] Fonction filtre et trie",
+    "body": "Améliorer et génératliser la fonction de trie/filtre pour les tableaux. \r\n1) Eviter de devoir nommer les colonnes pour exécuter la fontion. Privilégier un numéro de colonne\r\n2) Intégration des listes dans l'entete des tableaux avec une liste déroulante pour masquer ces champs au besoin . Ils seront masqué par défaut.\r\n3) Généraliser cette fonction a tous les tableaux",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/87"
+  },
+  {
+    "number": 85,
+    "title": "BULMA login test",
+    "body": "faire login ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/85"
+  },
+  {
+    "number": 81,
+    "title": "[FIX] Entreprise - Ajouter",
+    "body": "Problème de récupration de données",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/81"
+  },
+  {
+    "number": 76,
+    "title": "[CONTACT] ajouter",
+    "body": "1) Créer la méthode \"create()\"\n2) Créer la vue \"contact_create.php\"\n\nNotes:\nRécupérer l'idEntreprise dans un champ HIDDEN HTML\nPour Created_UserID -> Récupérer la données dans $_SESSION\nPour Created_date -> faire Created_date=NOW() dans la requête SQL",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/76"
+  },
+  {
+    "number": 75,
+    "title": "[CONTACT] Entreprise List",
+    "body": "Lister les contacts d'une entreprise",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/75"
+  },
+  {
+    "number": 71,
+    "title": "[PROFIL] bootstrap tooltips",
+    "body": "Affichage de l'information des des boutons \n-> Reset\n-> Désactivé",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/71"
+  },
+  {
+    "number": 69,
+    "title": "[PROFIL] 4 - Vue_gestion_etu",
+    "body": "Corriger l'erreur:\r\n[Thu May 16 10:04:23.463594 2024] [php:warn] [pid 15526] [client 127.0.0.1:43310] PHP Warning:  Undefined property: stdClass::$indice_fiabilite in /var/www/html/gestion_stage/vues/vue_liste_entreprises.php on line 43, referer: http://gestage.localhost/router.php?page=gestion_etu\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/69"
+  },
+  {
+    "number": 68,
+    "title": "[PROFIL] 3 - Vue_gestion_etu",
+    "body": "Compléter la vue qui afffiche les détails de l'utilisateur",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/68"
+  },
+  {
+    "number": 67,
+    "title": "[PROFIL] 2 - Vue_gestion_etu",
+    "body": "Ajouter un lien sur le nom de l'utilisateur qui pointe vers la vue qui afffiche les détails de l'utilisateur",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/67"
+  },
+  {
+    "number": 65,
+    "title": "[DB] Trigger redondance login",
+    "body": "Ajout du Trigger Test_redondance_login à la table User:",
+    "state": "closed",
+    "labels": [],
+    "milestone": "Database [FIX]",
+    "url": "https://github.com/ornech/gestion_stage/issues/65"
+  },
+  {
+    "number": 63,
+    "title": "[PROFIL] 1 - Vue_gestion_etu",
+    "body": "Afficher les colonnes: Nom, prénom, Promo, Spécialité, Status, Reset password,Désactivé",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/63"
+  },
+  {
+    "number": 61,
+    "title": "[USER] Create doublon",
+    "body": "1) Vérifiez qu'un login n'existe pas déjà dans la base de données.\r\n2) Renvoyer une erreur : router.php?page=erreur&titre=\"mon titre\"&message=\"ton message\"",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/61"
+  },
+  {
+    "number": 57,
+    "title": "[USER] Détection d'une première connexion",
+    "body": "Ajouter un champs première connexion (1 ou 0) à la table User mais également un champ datetime de premier connexion. Ceci devra être le début de la mise en place du respect de la RGPD quand à la conservation des données personnelles.",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/57"
+  },
+  {
+    "number": 56,
+    "title": "[USER] Create -> change password",
+    "body": "La création d'un nouvel utilisateur devrait mettre à jour la valeur 1 de la colonne reset_password de la table user.\r\nIl sera contraint de changer son mot de passe à la prochaine connexion.\r\nLe mot de passe par défaut serait  alors \"achanger\" pour chaque utilisateur créer comme l'avait proposer Astrik.",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/56"
+  },
+  {
+    "number": 55,
+    "title": "[ENTREPRISE] import activité",
+    "body": "L'importation d'une entreprise doit créer une activité en respectant le shéma de DB",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[Activité]",
+    "url": "https://github.com/ornech/gestion_stage/issues/55"
+  },
+  {
+    "number": 50,
+    "title": "génération de la convention de stage automatiquement",
+    "body": "Il serait interessant de pouvoir générer automatiquement une convention de stage pour les candidats aux stages.\r\nPeut-être avec un formulaire :\r\n- pour remplir automatiquement les informations personnelles des candidats\r\n- pour faire remplir les informations des entreprises qui sont prêtes à signer avec un candidat\r\n- procédure de signature numérique automatique (en bonus)\r\n- autres idées les bienvenues, merci de poursuivre sur le développement de cette idée dans le fil de discussion associé.\r\n- ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/50"
+  },
+  {
+    "number": 49,
+    "title": "Prendre en compte les contraintes juridiques",
+    "body": "Bonjour.\r\nAfin de protéger correctement les utilisateurs du service, il est nécessaire de respecter les contraintes juridiques de protection des utilisateurs. Le RGPD notamment impose de déclarer les activités de traitement sur les Données à Caractère Personnel. Il est nécessaire notamment de définir un registre de traitement au niveau de l'application.",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/49"
+  },
+  {
+    "number": 48,
+    "title": "[Activité] Prendre en compte le système de point",
+    "body": "Chaque activité possible est mentionnée dans la table Activité_type. \r\n1) Récupérer ces données dans un tableau et correspond à un nombres de points\r\n2) Faire la somme des points pour un utilisateur\r\n3) Afficher le nombre de points dans le profil\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[Activité]",
+    "url": "https://github.com/ornech/gestion_stage/issues/48"
+  },
+  {
+    "number": 47,
+    "title": "[NAVBAR] prof",
+    "body": "# Modifier la navbar Professeur:\r\nStages (Mes suivis, SIO1, SIO2) | Entreprises | Etudiants (Liste, Gestion, Importation) |  Profil (Compte,  se déconnecter)\r\n\r\n> Note:\r\n> Les symboles | sépare un menu. Les (...) indique son sous menu\r\n> Les liens doivent rester vide si la vues, modèle ou controlleur en question ne sont pas encore codé.\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/47"
+  },
+  {
+    "number": 46,
+    "title": "[ADD] Lien à usage unique",
+    "body": "Déterminer une méthode pour chiffrer et émettre un lien à usage unique:\r\n1) Devra inclure la date et l'heure de demande de réinitialisation du mot de passe\r\n2) Devra contenir le nom du login et le paramètre reset password dans l'url\r\n3) Devra être enregistré au moins une fois dans la DB de manière temporaire",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/46"
+  },
+  {
+    "number": 45,
+    "title": "[Entreprise] Voir un contact",
+    "body": "1) Création de la fiche contact\n2) Création du router\n3) Création de la vue correspondante dans la base de données",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[Activité]",
+    "url": "https://github.com/ornech/gestion_stage/issues/45"
+  },
+  {
+    "number": 44,
+    "title": "[Entreprise] JSON>SQL",
+    "body": "Depuis la page de détails d'une entreprise, avoir la possibilité de postuler (fictivement dans un premier temps)\r\n -> Un bouton qui :\r\n  - enregistre les données d'une entreprise extraites du json vers le serveur sql\r\n  - enregister une activité pour cet utilisateur sur cette entreprise (id de l'entreprise enregistrée sur le serveur sql)\r\n ",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[Activité]",
+    "url": "https://github.com/ornech/gestion_stage/issues/44"
+  },
+  {
+    "number": 41,
+    "title": "[FIX] Loggin",
+    "body": "Certain compte utilisateur n'ont pas l'air de reconnaitre le chiffrage du mot de passe. \r\n * La fonction [password_hash()](https://www.php.net/manual/fr/function.password-hash.php) est utilisée dans le controlleur (ligne 24): $password = password_hash($_POST['password'], PASSWORD_DEFAULT);\r\n * La fonction [password_verify()](https://www.php.net/manual/fr/function.password-verify.php) est utilisée pour vérifier qu'un mot de passe correspond à un hachage\r\n * Vérifier aussi le modèle\r\n * Vérifier aussi les différentes étapes du transfert des données de la vue jusqu'au modèle\r\n * Le formulaire à l'air de transférer en clair le mot de passe ... à vérifier\r\n * LA\r\n ",
+    "state": "closed",
+    "labels": [],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/41"
+  },
+  {
+    "number": 40,
+    "title": "[DB] User -> Spécialité",
+    "body": "Ajouter le champ \"spécialité\" au schéma de base de données:\r\n * SISR\r\n * SLAM",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/40"
+  },
+  {
+    "number": 39,
+    "title": "[PROFIL] User -> Promo",
+    "body": "A partir de l'année de promotion, déterminer s'il s'agit d'un étudiant SIO1, SIO2 ou d'un ancien étudiant.",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/39"
+  },
+  {
+    "number": 38,
+    "title": "[VUE] Détails du profil",
+    "body": "Modifier la vue pour:\r\n1) Intégrer Bootstrap (à définir)\r\n2) Afficher les champs de la table User:\r\n * Nom\r\n * Prénom\r\n * Promotion\r\n * Spécialité\r\n * Email\r\n * Telephone",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/38"
+  },
+  {
+    "number": 37,
+    "title": "[VUE] formulaire création de profil",
+    "body": "Modification du code HTML pour intégrer Bootstrap",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/37"
+  },
+  {
+    "number": 34,
+    "title": "[STAGE] routage create",
+    "body": "Faire les 3 \"case\" : \r\n * stage_detail\r\n * stage_list\r\n * stage_create\r\n",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[STAGE]",
+    "url": "https://github.com/ornech/gestion_stage/issues/34"
+  },
+  {
+    "number": 33,
+    "title": "[STAGE] Controller",
+    "body": "Réaliser le controlleur pour récupérer les données du formulaire en provenance de la vue stage_create.php",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[STAGE]",
+    "url": "https://github.com/ornech/gestion_stage/issues/33"
+  },
+  {
+    "number": 32,
+    "title": "[PROFIL] vue",
+    "body": "Amélioration de la vue profil:\r\n- Ajouter les données manquantes\r\n- Améliorer le design avec la librairie Boostrap",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[PROFIL]",
+    "url": "https://github.com/ornech/gestion_stage/issues/32"
+  },
+  {
+    "number": 31,
+    "title": "[STAGE] liste des stages",
+    "body": "### Discussed in https://github.com/ornech/gestion_stage/discussions/30\r\n\r\n<div type='discussions-op-text'>\r\n\r\n<sup>Originally posted by **ornech** May 14, 2024</sup>\r\nVoici une idée de ce que devrait la vue pour les enseignants des stages réalisés. \r\nBien sur il devra être possible de trier, masquer ou sélectionner ce que l'on souhaite afficher.  \r\nIl devra y avoir un lien vers les : \r\n * \"Etudiant\"\r\n * \"Entreprise\"\r\n * \"Maitre de stage\".  \r\n\r\n| Etudiant  | Année | Spécialité | Promo | Entreprise         | Adresse         | Maître de stage |\r\n|------------|------------|------------|-------|--------------------|-----------------|-----------------|\r\n| Alice      | SIO1| SISR| 2024  | TechCorp           | 123 Rue Tech    | John Doe        |\r\n| Bob       | SIO1 | SLAM| 2023  | ElectriX           | 456 Avenue Elec | Jane Smith      |\r\n| Clara      | SIO2| SISR  | 2024  | MechWorks          | 789 Rue Mech    | James Brown     |\r\n\r\n</div>\r\n\r\nNom du fichier : vue_stage_list.pĥp",
+    "state": "closed",
+    "labels": [],
+    "milestone": "[STAGE]",
+    "url": "https://github.com/ornech/gestion_stage/issues/31"
+  },
+  {
+    "number": 27,
+    "title": "[VUE] #1Recherche",
+    "body": "Pouvoir filter les données affichés dans une colonne  depuis une liste déroulante",
+    "state": "closed",
+    "labels": [
+      "Amélioration",
+      "dev"
+    ],
+    "milestone": "Recherche",
+    "url": "https://github.com/ornech/gestion_stage/issues/27"
+  },
+  {
+    "number": 25,
+    "title": "[FIX] Connection utilisateur",
+    "body": "La page login.php ne respect pas l'architecture MVC. A corriger",
+    "state": "closed",
+    "labels": [
+      "invalid",
+      "dev"
+    ],
+    "milestone": "Authentification",
+    "url": "https://github.com/ornech/gestion_stage/issues/25"
+  },
+  {
+    "number": 22,
+    "title": "[FIX] Session",
+    "body": "Le fichier router.php contient des éléments en lien avec la gestion des sessions utilisateurs. \r\nCe code n'a pas à figurer ici, à  déplacer dans /config/auth.php",
+    "state": "closed",
+    "labels": [
+      "invalid"
+    ],
+    "milestone": "Authentification",
+    "url": "https://github.com/ornech/gestion_stage/issues/22"
+  },
+  {
+    "number": 19,
+    "title": "[FIX] méthode de recherche",
+    "body": "Implique la modification de la vue et du controlleur qui recherche uniquement sur un code postal et un cade NAF",
+    "state": "closed",
+    "labels": [
+      "Amélioration"
+    ],
+    "milestone": "Recherche",
+    "url": "https://github.com/ornech/gestion_stage/issues/19"
+  },
+  {
+    "number": 18,
+    "title": "Méthode de récupération de mot de passe",
+    "body": "A définir",
+    "state": "closed",
+    "labels": [
+      "Amélioration",
+      "dev"
+    ],
+    "milestone": "Authentification",
+    "url": "https://github.com/ornech/gestion_stage/issues/18"
+  },
+  {
+    "number": 17,
+    "title": "[STAGE] Model stage",
+    "body": "Créer la class Stage +\r\nLes méthodes create, read, list, update\r\n\r\nnom du fichier: Stage.php",
+    "state": "closed",
+    "labels": [
+      "dev"
+    ],
+    "milestone": "[STAGE]",
+    "url": "https://github.com/ornech/gestion_stage/issues/17"
+  },
+  {
+    "number": 16,
+    "title": "[STAGE] vue create",
+    "body": "Faire le formulaire pour la création d'un stage .\r\n\r\nnom du fichier : vue_stage_create.php",
+    "state": "closed",
+    "labels": [
+      "dev"
+    ],
+    "milestone": "[STAGE]",
+    "url": "https://github.com/ornech/gestion_stage/issues/16"
+  },
+  {
+    "number": 15,
+    "title": "[DB] Vérifier le schéma DB -> Stages",
+    "body": "Modifier le schéma de base de données pour l'enregistrement des stages",
+    "state": "closed",
+    "labels": [
+      "DB"
+    ],
+    "milestone": "[STAGE]",
+    "url": "https://github.com/ornech/gestion_stage/issues/15"
+  },
+  {
+    "number": 14,
+    "title": "Fonction de rappel",
+    "body": "Privilégier la fluidité à la quantité de donnée à saisir impose de mettre en place un rappel.\r\nCes rappels peuvent être de plusieurs type:\r\n1) bandeau d'alerte\r\n2) mail\r\n3) Proposer d'office la saisie des données manquantes sans que ce soit bloquant pour autant",
+    "state": "closed",
+    "labels": [
+      "question"
+    ],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/14"
+  },
+  {
+    "number": 13,
+    "title": "Stage_vue Create -> Scénario possible",
+    "body": "Définir les sénario possible pour la création de stage:\r\n1) A partir de la liste des entreprises de la base INSEE\r\n2) Une entreprise non présente dans cette base de données -> L'étudiant devra renseigner les informations minimals pour enregistrer son entreprise ( a discuter de ce qui fera l'objet d'un rappel)\r\n3) Ajout du maitre de stage ( discuter si cela peut faire l'objet d'un rappel)",
+    "state": "closed",
+    "labels": [
+      "question"
+    ],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/13"
+  },
+  {
+    "number": 12,
+    "title": " [STAGE ] vue détails",
+    "body": "Affiche les détails d'un stage:\r\n - Date de validation\r\n - Nom entreprise\r\n - Adresse\r\n - Cp\r\n - Ville\r\n - Nom et contact du maitre de stage (mail et teléphone)\r\n\r\nNom du fichier: vue_stage_details.php",
+    "state": "closed",
+    "labels": [
+      "dev"
+    ],
+    "milestone": "[STAGE]",
+    "url": "https://github.com/ornech/gestion_stage/issues/12"
+  },
+  {
+    "number": 7,
+    "title": "Intégration de Bulma",
+    "body": "Supprimer les css, asset et js de bootstrap.\r\nCorriger les class  des balises HTML pour inplémenter Bulma",
+    "state": "closed",
+    "labels": [
+      "Amélioration"
+    ],
+    "milestone": null,
+    "url": "https://github.com/ornech/gestion_stage/issues/7"
+  },
+  {
+    "number": 4,
+    "title": "[DB] Convertir l'éxistant",
+    "body": "convertir les données de l'ancien shéma base vers le nouveau shéma :\r\n// Table: etablissement\r\ntable etablissement {\r\n  id int [PK]  // Primary key\r\n  siren varchar(255)\r\n  nic varchar(255)\r\n  siret varchar(255)\r\n  statutDiffusionEtablissement varchar(255)\r\n  dateCreationEtablissement date\r\n  trancheEffectifsEtablissement int\r\n  anneeEffectifsEtablissement int\r\n  activitePrincipaleRegistreMetiersEtablissement varchar(255)\r\n  dateDernierTraitementEtablissement datetime\r\n  etablissementSiege int\r\n  nombrePeriodesEtablissement int\r\n}\r\n\r\n// Table: unite_legale\r\ntable uniteLegale {\r\n  id int [PK]  // Primary key\r\n  etablissement_id int [ref: - etablissement.id]  // Foreign key referencing etablissement.id\r\n  etatAdministratifUniteLegale varchar(255)\r\n  statutDiffusionUniteLegale varchar(255)\r\n  dateCreationUniteLegale date\r\n  categorieJuridiqueUniteLegale varchar(255)\r\n  denominationUniteLegale varchar(255)\r\n  sigleUniteLegale varchar(255)\r\n  denominationUsuelle1UniteLegale varchar(255)\r\n  denominationUsuelle2UniteLegale varchar(255)\r\n  denominationUsuelle3UniteLegale varchar(255)\r\n  sexeUniteLegale varchar(255)\r\n  nomUniteLegale varchar(255)\r\n  nomUsageUniteLegale varchar(255)\r\n  prenom1UniteLegale varchar(255)\r\n  prenom2UniteLegale varchar(255)\r\n  prenom3UniteLegale varchar(255)\r\n  prenom4UniteLegale varchar(255)\r\n  prenomUsuelUniteLegale varchar(255)\r\n  pseudonymeUniteLegale varchar(255)\r\n  activitePrincipaleUniteLegale varchar(255)\r\n  nomenclatureActivitePrincipaleUniteLegale varchar(255)\r\n  identifiantAssociationUniteLegale varchar(255)\r\n  economieSocialeSolidaireUniteLegale varchar(255)\r\n  societeMissionUniteLegale varchar(255)\r\n  caractereEmployeurUniteLegale varchar(255)\r\n  trancheEffectifsUniteLegale int\r\n  anneeEffectifsUniteLegale int\r\n  nicSiegeUniteLegale varchar(255)\r\n  dateDernierTraitementUniteLegale datetime\r\n  categorieEntreprise varchar(255)\r\n  anneeCategorieEntreprise int\r\n}\r\n\r\n// Table: adresse_etablissement\r\ntable adresseEtablissement {\r\n  id int [PK]  // Primary key\r\n  etablissement_id int [ref: - etablissement.id]  // Foreign key referencing etablissement.id\r\n  complementAdresseEtablissement varchar(255)\r\n  numeroVoieEtablissement varchar(255)\r\n  indiceRepetitionEtablissement varchar(255)\r\n  dernierNumeroVoieEtablissement varchar(255)\r\n  indiceRepetitionDernierNumeroVoieEtablissement varchar(255)\r\n  typeVoieEtablissement varchar(255)\r\n  libelleVoieEtablissement varchar(255)\r\n  codePostalEtablissement varchar(255)\r\n  libelleCommuneEtablissement varchar(255)\r\n  libelleCommuneEtrangerEtablissement varchar(255)\r\n  distributionSpecialeEtablissement varchar(255)\r\n  codeCommuneEtablissement varchar(255)\r\n  codeCedexEtablissement varchar(255)\r\n  libelleCedexEtablissement varchar(255)\r\n  codePaysEtrangerEtablissement varchar(255)\r\n  libellePaysEtrangerEtablissement varchar(255)\r\n  identifiantAdresseEtablissement varchar(255)\r\n  coordonneeLambertAbscisseEtablissement float\r\n  coordonneeLambertOrdonneeEtablissement float\r\n  }\r\n\r\ntable periodesEtablissement {\r\n  id int [PK]  // Primary key\r\n  etablissement_id int [ref: > etablissement.id]\r\n  dateFin date\r\n  dateDebut date\r\n  etatAdministratifEtablissement varchar(1)\r\n  changementEtatAdministratifEtablissement int\r\n  enseigne1Etablissement varchar(255)\r\n  enseigne2Etablissement varchar(255)\r\n  enseigne3Etablissement varchar(255)\r\n  changementEnseigneEtablissement int\r\n  denominationUsuelleEtablissement varchar(255)\r\n  changementDenominationUsuelleEtablissement int\r\n  activitePrincipaleEtablissement varchar(255)\r\n  nomenclatureActivitePrincipaleEtablissement varchar(255)\r\n  changementActivitePrincipaleEtablissement int\r\n  caractereEmployeurEtablissement varchar(255)\r\n  changementCaractereEmployeurEtablissement int\r\n}\r\n\r\n",
+    "state": "closed",
+    "labels": [
+      "Amélioration"
+    ],
+    "milestone": "Database [FIX]",
+    "url": "https://github.com/ornech/gestion_stage/issues/4"
+  },
+  {
+    "number": 3,
+    "title": "[DB] Entreprise",
+    "body": "Modifier le schéma de la base de donnée pour récupérer les données pertinantes du json en provonance de l'INSEE.\r\nExemple:\"etablissements\": [\r\n        {\r\n            \"siren\": \"487941916\",\r\n            \"nic\": \"00024\",\r\n            \"siret\": \"48794191600024\",\r\n            \"statutDiffusionEtablissement\": \"O\",\r\n            \"dateCreationEtablissement\": \"2006-05-15\",\r\n            \"trancheEffectifsEtablissement\": null,\r\n            \"anneeEffectifsEtablissement\": null,\r\n            \"activitePrincipaleRegistreMetiersEtablissement\": null,\r\n            \"dateDernierTraitementEtablissement\": \"2024-03-30T01:24:19.156\",\r\n            \"etablissementSiege\": false,\r\n            \"nombrePeriodesEtablissement\": 4,\r\n            \"uniteLegale\": {\r\n                \"etatAdministratifUniteLegale\": \"A\",\r\n                \"statutDiffusionUniteLegale\": \"O\",\r\n                \"dateCreationUniteLegale\": \"2006-01-10\",\r\n                \"categorieJuridiqueUniteLegale\": \"5499\",\r\n                \"denominationUniteLegale\": \"MOBILE ZONE\",\r\n                \"sigleUniteLegale\": null,\r\n                \"denominationUsuelle1UniteLegale\": null,\r\n                \"denominationUsuelle2UniteLegale\": null,\r\n                \"denominationUsuelle3UniteLegale\": null,\r\n                \"sexeUniteLegale\": null,\r\n                \"nomUniteLegale\": null,\r\n                \"nomUsageUniteLegale\": null,\r\n                \"prenom1UniteLegale\": null,\r\n                \"prenom2UniteLegale\": null,\r\n                \"prenom3UniteLegale\": null,\r\n                \"prenom4UniteLegale\": null,\r\n                \"prenomUsuelUniteLegale\": null,\r\n                \"pseudonymeUniteLegale\": null,\r\n                \"activitePrincipaleUniteLegale\": \"46.52Z\",\r\n                \"nomenclatureActivitePrincipaleUniteLegale\": \"NAFRev2\",\r\n                \"identifiantAssociationUniteLegale\": null,\r\n                \"economieSocialeSolidaireUniteLegale\": null,\r\n                \"societeMissionUniteLegale\": null,\r\n                \"caractereEmployeurUniteLegale\": null,\r\n                \"trancheEffectifsUniteLegale\": null,\r\n                \"anneeEffectifsUniteLegale\": null,\r\n                \"nicSiegeUniteLegale\": \"00040\",\r\n                \"dateDernierTraitementUniteLegale\": \"2024-03-22T09:28:19.000\",\r\n                \"categorieEntreprise\": null,\r\n                \"anneeCategorieEntreprise\": null\r\n            },\r\n            \"adresseEtablissement\": {\r\n                \"complementAdresseEtablissement\": \"SUPER U - ZA PIED SEC\",\r\n                \"numeroVoieEtablissement\": null,\r\n                \"indiceRepetitionEtablissement\": null,\r\n                \"dernierNumeroVoieEtablissement\": null,\r\n                \"indiceRepetitionDernierNumeroVoieEtablissement\": null,\r\n                \"typeVoieEtablissement\": \"ROUTE\",\r\n                \"libelleVoieEtablissement\": \"DE SAINTES\",\r\n                \"codePostalEtablissement\": \"17260\",\r\n                \"libelleCommuneEtablissement\": \"GEMOZAC\",\r\n                \"libelleCommuneEtrangerEtablissement\": null,\r\n                \"distributionSpecialeEtablissement\": null,\r\n                \"codeCommuneEtablissement\": \"17172\",\r\n                \"codeCedexEtablissement\": null,\r\n                \"libelleCedexEtablissement\": null,\r\n                \"codePaysEtrangerEtablissement\": null,\r\n                \"libellePaysEtrangerEtablissement\": null,\r\n                \"identifiantAdresseEtablissement\": \"171720041_B\",\r\n                \"coordonneeLambertAbscisseEtablissement\": \"45.58043\",\r\n                \"coordonneeLambertOrdonneeEtablissement\": \"-0.675242\"\r\n            },\r\n            \"adresse2Etablissement\": {\r\n                \"complementAdresse2Etablissement\": null,\r\n                \"numeroVoie2Etablissement\": null,\r\n                \"indiceRepetition2Etablissement\": null,\r\n                \"typeVoie2Etablissement\": null,\r\n                \"libelleVoie2Etablissement\": null,\r\n                \"codePostal2Etablissement\": null,\r\n                \"libelleCommune2Etablissement\": null,\r\n                \"libelleCommuneEtranger2Etablissement\": null,\r\n                \"distributionSpeciale2Etablissement\": null,\r\n                \"codeCommune2Etablissement\": null,\r\n                \"codeCedex2Etablissement\": null,\r\n                \"libelleCedex2Etablissement\": null,\r\n                \"codePaysEtranger2Etablissement\": null,\r\n                \"libellePaysEtranger2Etablissement\": null\r\n            },\r\n            \"periodesEtablissement\": [\r\n                {\r\n                    \"dateFin\": null,\r\n                    \"dateDebut\": \"2013-11-25\",\r\n                    \"etatAdministratifEtablissement\": \"F\",\r\n                    \"changementEtatAdministratifEtablissement\": false,\r\n                    \"enseigne1Etablissement\": \"TELECOM 1\",\r\n                    \"enseigne2Etablissement\": null,\r\n                    \"enseigne3Etablissement\": null,\r\n                    \"changementEnseigneEtablissement\": false,\r\n                    \"denominationUsuelleEtablissement\": null,\r\n                    \"changementDenominationUsuelleEtablissement\": false,\r\n                    \"activitePrincipaleEtablissement\": \"46.52Z\",\r\n                    \"nomenclatureActivitePrincipaleEtablissement\": \"NAFRev2\",\r\n                    \"changementActivitePrincipaleEtablissement\": false,\r\n                    \"caractereEmployeurEtablissement\": \"N\",\r\n                    \"changementCaractereEmployeurEtablissement\": true\r\n                },\r\n                {\r\n                    \"dateFin\": \"2013-11-24\",\r\n                    \"dateDebut\": \"2013-09-26\",\r\n                    \"etatAdministratifEtablissement\": \"F\",\r\n                    \"changementEtatAdministratifEtablissement\": true,\r\n                    \"enseigne1Etablissement\": \"TELECOM 1\",\r\n                    \"enseigne2Etablissement\": null,\r\n                    \"enseigne3Etablissement\": null,\r\n                    \"changementEnseigneEtablissement\": false,\r\n                    \"denominationUsuelleEtablissement\": null,\r\n                    \"changementDenominationUsuelleEtablissement\": false,\r\n                    \"activitePrincipaleEtablissement\": \"46.52Z\",\r\n                    \"nomenclatureActivitePrincipaleEtablissement\": \"NAFRev2\",\r\n                    \"changementActivitePrincipaleEtablissement\": false,\r\n                    \"caractereEmployeurEtablissement\": \"O\",\r\n                    \"changementCaractereEmployeurEtablissement\": false\r\n                },\r\n                {\r\n                    \"dateFin\": \"2013-09-25\",\r\n                    \"dateDebut\": \"2008-01-01\",\r\n                    \"etatAdministratifEtablissement\": \"A\",\r\n                    \"changementEtatAdministratifEtablissement\": false,\r\n                    \"enseigne1Etablissement\": \"TELECOM 1\",\r\n                    \"enseigne2Etablissement\": null,\r\n                    \"enseigne3Etablissement\": null,\r\n                    \"changementEnseigneEtablissement\": false,\r\n                    \"denominationUsuelleEtablissement\": null,\r\n                    \"changementDenominationUsuelleEtablissement\": false,\r\n                    \"activitePrincipaleEtablissement\": \"46.52Z\",\r\n                    \"nomenclatureActivitePrincipaleEtablissement\": \"NAFRev2\",\r\n                    \"changementActivitePrincipaleEtablissement\": true,\r\n                    \"caractereEmployeurEtablissement\": \"O\",\r\n                    \"changementCaractereEmployeurEtablissement\": false\r\n                },\r\n                {\r\n                    \"dateFin\": \"2007-12-31\",\r\n                    \"dateDebut\": \"2006-05-15\",\r\n                    \"etatAdministratifEtablissement\": \"A\",\r\n                    \"changementEtatAdministratifEtablissement\": false,\r\n                    \"enseigne1Etablissement\": \"TELECOM 1\",\r\n                    \"enseigne2Etablissement\": null,\r\n                    \"enseigne3Etablissement\": null,\r\n                    \"changementEnseigneEtablissement\": false,\r\n                    \"denominationUsuelleEtablissement\": null,\r\n                    \"changementDenominationUsuelleEtablissement\": false,\r\n                    \"activitePrincipaleEtablissement\": \"51.4F\",\r\n                    \"nomenclatureActivitePrincipaleEtablissement\": \"NAFRev1\",\r\n                    \"changementActivitePrincipaleEtablissement\": false,\r\n                    \"caractereEmployeurEtablissement\": \"O\",\r\n                    \"changementCaractereEmployeurEtablissement\": false\r\n                }\r\n            ]\r\n        },",
+    "state": "closed",
+    "labels": [
+      "Amélioration",
+      "DB"
+    ],
+    "milestone": "Database [FIX]",
+    "url": "https://github.com/ornech/gestion_stage/issues/3"
+  },
+  {
+    "number": 2,
+    "title": "[Recherche] Mise à jours des données INSEE",
+    "body": "Faire une page afin de réaliser une mise à jour ou ajouter (code naf ou département) des données INSEE",
+    "state": "closed",
+    "labels": [
+      "invalid"
+    ],
+    "milestone": "Recherche",
+    "url": "https://github.com/ornech/gestion_stage/issues/2"
+  },
+  {
+    "number": 1,
+    "title": "[RECHERCHE] Class recherche-> function detail($siret)",
+    "body": "**Incoherence**:\nFait référence à une réponse de l'API INSEE.\n\n**A faire;**\nAfficher les informations à partir des fichiers json",
+    "state": "closed",
+    "labels": [
+      "bug",
+      "Amélioration"
+    ],
+    "milestone": "Database [FIX]",
+    "url": "https://github.com/ornech/gestion_stage/issues/1"
+  }
+]
