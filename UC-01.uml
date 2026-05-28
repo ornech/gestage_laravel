@@ -55,13 +55,16 @@ rectangle "Gestage (cible Laravel) — Use cases métier" {
   }
 }
 
+' --- Visiteur ---
 VIS --> UC_AUTH
 VIS --> UC_RESET
 
+' --- Utilisateur connecté (commun) ---
 U --> UC_PROFIL_R
 U --> UC_PROFIL_U
 U --> UC_CGU
 
+' --- Étudiant ---
 ETU --> UC_MY_STAGES
 ETU --> UC_STAGE_VIEW
 ETU --> UC_CONVENTION
@@ -71,21 +74,47 @@ ETU --> UC_COMP_VIEW
 ETU --> UC_COMP_MANUAL
 ETU --> UC_CONTACT
 
+note on link
+  Dans le cadre de son stage uniquement,
+  soumis à validation
+end note
+
+' --- Professeur ---
 PROF --> UC_STAGE_MGMT
+PROF --> UC_STAGE_VIEW
 PROF --> UC_TUTOR
 PROF --> UC_SCHOOLING
 PROF --> UC_VALIDATE
 PROF --> UC_CONVENTION
 PROF --> UC_ATTEST
+PROF --> UC_COMP_SEARCH
+PROF --> UC_COMP_VIEW
 PROF --> UC_COMP_API
 
+' --- Admin ---
 ADM --> UC_USERS
 ADM --> UC_USER_ANON
 ADM --> UC_AUDIT
 ADM --> UC_VALIDATE
 ADM --> UC_PRONOTE
+ADM --> UC_STAGE_MGMT
+ADM --> UC_STAGE_VIEW
+ADM --> UC_TUTOR
+ADM --> UC_SCHOOLING
+ADM --> UC_COMP_SEARCH
+ADM --> UC_COMP_VIEW
+ADM --> UC_COMP_API
 
+' --- Relations include / extend ---
+UC_CONVENTION ..> UC_STAGE_VIEW : <<include>>
+UC_ATTEST ..> UC_STAGE_VIEW : <<include>>
+UC_COMP_API ..> UC_COMP_VIEW : <<extend>>
+UC_VALIDATE ..> UC_AUDIT : <<include>>
+UC_COMP_MANUAL ..> UC_COMP_VIEW : <<extend>>
+
+' --- Acteurs externes ---
 UC_COMP_API --> SIRENE
 UC_RESET --> MAIL
 UC_VALIDATE --> MAIL
+
 @enduml
